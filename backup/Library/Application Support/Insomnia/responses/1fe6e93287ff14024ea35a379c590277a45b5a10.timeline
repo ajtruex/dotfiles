@@ -1,0 +1,127 @@
+[
+	{
+		"name": "TEXT",
+		"value": "Preparing request to https://dva9vm8f1h.execute-api.us-east-2.amazonaws.com/production/restaurants",
+		"timestamp": 1604967861328
+	},
+	{
+		"name": "TEXT",
+		"value": "Current time is 2020-11-10T00:24:21.328Z",
+		"timestamp": 1604967861328
+	},
+	{
+		"name": "TEXT",
+		"value": "Using libcurl/7.69.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.7 libidn2/2.1.1 libssh2/1.9.0 nghttp2/1.40.0",
+		"timestamp": 1604967861328
+	},
+	{
+		"name": "TEXT",
+		"value": "Using default HTTP version",
+		"timestamp": 1604967861328
+	},
+	{
+		"name": "TEXT",
+		"value": "Disable timeout",
+		"timestamp": 1604967861328
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable automatic URL encoding",
+		"timestamp": 1604967861328
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable SSL validation",
+		"timestamp": 1604967861328
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable cookie sending with jar of 0 cookies",
+		"timestamp": 1604967861328
+	},
+	{
+		"name": "TEXT",
+		"value": "Found bundle for host dva9vm8f1h.execute-api.us-east-2.amazonaws.com: 0x7fa39e452210 [can multiplex]\n",
+		"timestamp": 1604967861338
+	},
+	{
+		"name": "TEXT",
+		"value": "Re-using existing connection! (#0) with host dva9vm8f1h.execute-api.us-east-2.amazonaws.com\n",
+		"timestamp": 1604967861338
+	},
+	{
+		"name": "TEXT",
+		"value": "Connected to dva9vm8f1h.execute-api.us-east-2.amazonaws.com (18.190.39.103) port 443 (#0)\n",
+		"timestamp": 1604967861338
+	},
+	{
+		"name": "TEXT",
+		"value": "Using Stream ID: 3 (easy handle 0x7fa3a190e400)\n",
+		"timestamp": 1604967861338
+	},
+	{
+		"name": "HEADER_OUT",
+		"value": "GET /production/restaurants HTTP/2\r\nHost: dva9vm8f1h.execute-api.us-east-2.amazonaws.com\r\nuser-agent: insomnia/2020.3.3\r\nx-api-key: Ni9tok2QGz9xOSKsfBp6q87dnjS8zVmo5t45SGsp\r\naccept: */*\r\n\r\n",
+		"timestamp": 1604967861338
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "HTTP/2 200 \r\n",
+		"timestamp": 1604967861899
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "date: Tue, 10 Nov 2020 00:24:21 GMT\r\n",
+		"timestamp": 1604967861900
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "content-type: application/json\r\n",
+		"timestamp": 1604967861900
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "content-length: 2911\r\n",
+		"timestamp": 1604967861900
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "x-amzn-requestid: 802cfb65-5026-4ddd-b537-e4bd5882edba\r\n",
+		"timestamp": 1604967861900
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "access-control-allow-origin: *\r\n",
+		"timestamp": 1604967861900
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "x-amz-apigw-id: Vw-UWGjPCYcF2SQ=\r\n",
+		"timestamp": 1604967861900
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "x-amzn-trace-id: Root=1-5fa9ddb5-435e6af41556e845356496d1;Sampled=0\r\n",
+		"timestamp": 1604967861900
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "access-control-allow-credentials: true\r\n",
+		"timestamp": 1604967861900
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "\r\n",
+		"timestamp": 1604967861900
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 2.8 KB chunk",
+		"timestamp": 1604967861900
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection #0 to host dva9vm8f1h.execute-api.us-east-2.amazonaws.com left intact\n",
+		"timestamp": 1604967861900
+	}
+]

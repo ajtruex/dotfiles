@@ -1,0 +1,212 @@
+[
+	{
+		"name": "TEXT",
+		"value": "Preparing request to https://api.producthunt.com/v2/api/graphql",
+		"timestamp": 1582521271434
+	},
+	{
+		"name": "TEXT",
+		"value": "Using libcurl/7.67.0 SecureTransport zlib/1.2.11",
+		"timestamp": 1582521271434
+	},
+	{
+		"name": "TEXT",
+		"value": "Current time is 2020-02-24T05:14:31.434Z",
+		"timestamp": 1582521271434
+	},
+	{
+		"name": "TEXT",
+		"value": "Disable timeout",
+		"timestamp": 1582521271434
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable automatic URL encoding",
+		"timestamp": 1582521271434
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable SSL validation",
+		"timestamp": 1582521271434
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable cookie sending with jar of 8 cookies",
+		"timestamp": 1582521271434
+	},
+	{
+		"name": "TEXT",
+		"value": "Found bundle for host api.producthunt.com: 0x7fbb64af7ce0 [serially]\n",
+		"timestamp": 1582521271443
+	},
+	{
+		"name": "TEXT",
+		"value": "Re-using existing connection! (#7) with host api.producthunt.com\n",
+		"timestamp": 1582521271443
+	},
+	{
+		"name": "TEXT",
+		"value": "Connected to api.producthunt.com (104.18.231.83) port 443 (#7)\n",
+		"timestamp": 1582521271443
+	},
+	{
+		"name": "HEADER_OUT",
+		"value": "POST /v2/api/graphql HTTP/1.1\r\nHost: api.producthunt.com\r\nUser-Agent: insomnia/7.1.1\r\nCookie: csrf_token=NFynk4%2BPrSp%2FDl8rpybGbdpT6%2F4g%2BnjbxbKq7uyRYkFcHjMoGW2JXf%2FRx8goI5KKODmAyzo7sTWS2U6KKzlB4w%3D%3D; track_code=1658750d77; visitor_id=4a35c87a-42ed-4add-8adb-20da44abfd72; _producthunt_session_production=d3VTcjJsZlZhQmlsbXVHQUpNWU4zUldOY3hWZ2svem9UMmRoRVk4K3N4Zm9NOUY0NE1HTDB0TzN0SXgvYVZaWEF5ay9LL3RwZmp4bVZRU2xIVjNvTjBxTTlGL3J4TE9vMVF3ZHJNZVdkT0kvUTc3cWNrV0RuTjNrQVpiR0tXMUNJc00xcEt0aG41STd5QnNMRC95eW9INkx2azVTMWNyaVprS3lsaUkvNXpVN0NBUWV2N2xDOVpMVC9hTmVUWnBvMERHTThpQmp2U1ZkQkQreDNyUFpOSTF4TnVxa1FJaHBmRjdZSFBtWk9qdz0tLWpKbnlSVUFKQ3hzWWhvaitTQ2x0SVE9PQ%3D%3D--9a3a17e101c665f6abee7826a6f56d80c6cb8333; __cfduid=d3969379f8fb8848a77604e206596ff4d1582519988\r\nContent-Type: application/json\r\nAuthorization: Bearer 21RrGI0cjva67xgR_iIRZqomX2d-BJBcfAyaSWhu6S0\r\nAccept: application/json\r\nContent-Length: 55\r\n\r\n",
+		"timestamp": 1582521271443
+	},
+	{
+		"name": "DATA_OUT",
+		"value": "{\n  \"query\": \"query { viewer { user { username } } }\"\n}",
+		"timestamp": 1582521271443
+	},
+	{
+		"name": "TEXT",
+		"value": "upload completely sent off: 55 out of 55 bytes\n",
+		"timestamp": 1582521271443
+	},
+	{
+		"name": "TEXT",
+		"value": "Mark bundle as not supporting multiuse\n",
+		"timestamp": 1582521271882
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "HTTP/1.1 200 OK\r\n",
+		"timestamp": 1582521271882
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Date: Mon, 24 Feb 2020 05:14:31 GMT\r\n",
+		"timestamp": 1582521271882
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Content-Type: application/json; charset=utf-8\r\n",
+		"timestamp": 1582521271882
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Transfer-Encoding: chunked\r\n",
+		"timestamp": 1582521271882
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Connection: keep-alive\r\n",
+		"timestamp": 1582521271882
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Frame-Options: SAMEORIGIN\r\n",
+		"timestamp": 1582521271882
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-XSS-Protection: 1; mode=block\r\n",
+		"timestamp": 1582521271882
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Content-Type-Options: nosniff\r\n",
+		"timestamp": 1582521271882
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Rate-Limit-Limit: 6250\r\n",
+		"timestamp": 1582521271882
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Rate-Limit-Remaining: 6002\r\n",
+		"timestamp": 1582521271882
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Rate-Limit-Reset: 401\r\n",
+		"timestamp": 1582521271882
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "ETag: W/\"9f464cafc324765ec85a303f388b2c7e\"\r\n",
+		"timestamp": 1582521271882
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Cache-Control: max-age=0, private, must-revalidate\r\n",
+		"timestamp": 1582521271882
+	},
+	{
+		"name": "TEXT",
+		"value": "Replaced cookie _producthunt_session_production=\"cWlRbUhaQUI4VWpsNmhRaENteG53Mjh5QUVKZ2xDVjZzVEc1K2FZTU9QQkZHNWIvZStoVXRHbGwyYk5MaG96V3BHRFFGcUJFVHFaM1pKMXgrQ0xGZmNyRCtCK3ZLMFZza0VCNUJqaThhVWVKcVVybEdsempKTjNlTVJiS2RuUUdrdnYrYXozVFgwUTZTOUovSW0yZ2VlSmdWWnQ3SERnNHBKRXdHcytnLzIrS3A0Sml5YmZ4YnlZV25jNVcxZjNBdEFoZmM1VW9nbFRoekNDdTA3KzRKam9OeGJXTzJ2UDRPRjRERlNjVHU2ST0tLUJ4MGEvblV3R0YzTGREU3ErNld3dEE9PQ%3D%3D--892bc993f520fe4a0d0114ff583f32a927e46b88\" for domain producthunt.com, path /, expire 1592521270\n",
+		"timestamp": 1582521271882
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Set-Cookie: _producthunt_session_production=cWlRbUhaQUI4VWpsNmhRaENteG53Mjh5QUVKZ2xDVjZzVEc1K2FZTU9QQkZHNWIvZStoVXRHbGwyYk5MaG96V3BHRFFGcUJFVHFaM1pKMXgrQ0xGZmNyRCtCK3ZLMFZza0VCNUJqaThhVWVKcVVybEdsempKTjNlTVJiS2RuUUdrdnYrYXozVFgwUTZTOUovSW0yZ2VlSmdWWnQ3SERnNHBKRXdHcytnLzIrS3A0Sml5YmZ4YnlZV25jNVcxZjNBdEFoZmM1VW9nbFRoekNDdTA3KzRKam9OeGJXTzJ2UDRPRjRERlNjVHU2ST0tLUJ4MGEvblV3R0YzTGREU3ErNld3dEE9PQ%3D%3D--892bc993f520fe4a0d0114ff583f32a927e46b88; domain=.producthunt.com; path=/; expires=Thu, 18 Jun 2020 23:01:10 -0000; HttpOnly\r\n",
+		"timestamp": 1582521271882
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Request-Id: 3eaf5e30-d55e-4128-a3e3-a273b3a9fde8\r\n",
+		"timestamp": 1582521271882
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Runtime: 0.010974\r\n",
+		"timestamp": 1582521271882
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Vary: Origin\r\n",
+		"timestamp": 1582521271882
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "CF-Cache-Status: DYNAMIC\r\n",
+		"timestamp": 1582521271882
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Expect-CT: max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"\r\n",
+		"timestamp": 1582521271882
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Strict-Transport-Security: max-age=2592000; includeSubDomains; preload\r\n",
+		"timestamp": 1582521271882
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Server: cloudflare\r\n",
+		"timestamp": 1582521271882
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "CF-RAY: 569ef4da9d86f222-ORD\r\n",
+		"timestamp": 1582521271882
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "\r\n",
+		"timestamp": 1582521271882
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 30 B chunk",
+		"timestamp": 1582521271882
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 5 B chunk",
+		"timestamp": 1582521271882
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection #7 to host api.producthunt.com left intact\n",
+		"timestamp": 1582521271882
+	},
+	{
+		"name": "TEXT",
+		"value": "Saved 1 cookie",
+		"timestamp": 1582521271886
+	}
+]

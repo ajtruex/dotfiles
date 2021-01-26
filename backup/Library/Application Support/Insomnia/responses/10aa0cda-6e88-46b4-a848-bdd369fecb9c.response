@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+<title>Untappd - Allow TruBoo to access your Untappd Account</title>
+<link rel="apple-touch-icon" sizes="144x144" href="https://untappd.akamaized.net/assets/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-32x32-v2.png" sizes="32x32">
+<link rel="icon" type="image/png" href="https://untappd.akamaized.net/assets/favicon-16x16-v2.png" sizes="16x16">
+<link rel="manifest" href="https://untappd.akamaized.net/assets/manifest.json">
+<link rel="mask-icon" href="https://untappd.akamaized.net/assets/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="apple-touch-icon" href="https://untappd.akamaized.net/assets/apple-touch-icon.png" />
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi" />
+<meta name="description" content="Untappd is a mobile app that allows you to socially share the brew you're currently enjoying, as well as where you're enjoying it, with your friends!" />
+<meta name="author" content="The Untappd Team" />
+<meta name="Copyright" content="Copyright Untappd 2020. All Rights Reserved." />
+<meta name="DC.title" content="Untappd" />
+<meta name="DC.subject" content="Untappd is a mobile app that allows you to socially share the brew you're currently enjoying, as well as where you're enjoying it, with your friends!" />
+<meta name="DC.creator" content="The Untappd Team" />
+<meta name="google-site-verification" content="EnR7QavTgiLCzZCCOv_OARCHsHhFwkwnJdG0Sti9Amg" />
+<meta name="bitly-verification" content="b3080898518a" />
+<meta content="153339744679495" property="fb:app_id">
+<meta content="Untappd" property="og:site_name">
+<meta content="https://untappd.com/" property="og:url">
+<meta content="Untappd" property="og:title">
+<meta content="Share your reviews and photos of your favorite beers with your friends. You can also discover new beers and bars wherever you are." property="og:description">
+<meta content="social" property="og:type">
+<meta content="https://untappd.akamaized.net/assets/v2/images/uticon.png" property="og:image">
+<script src="https://untappd.akamaized.net/assets/v3/js/common/min/site_common_min.js?v=2.5.6"></script>
+<link rel="stylesheet" href="https://untappd.akamaized.net/assets/css/master.css?v=4.2.8" />
+<link rel="stylesheet" href="https://untappd.akamaized.net/assets/v3/css/style.css?v=4.2.8" />
+<link rel="stylesheet" href="https://untappd.akamaized.net/assets/v2/css/oauth.css?v=4.2.8" />
+<style type="text/css">
+    body.oauth-login .login_page #oauth h1 .logo {
+      display: block;
+      text-indent: -9999px;
+      width: 251px;
+      height: 60px;
+      margin: 0 auto 20px;
+      background-image: url("https://untappd.akamaized.net/assets/v3/images/login_logo.png") !important;
+      background-position: center center;
+      background-size: 251px 60px;
+      background-repeat: no-repeat;
+    }
+
+    body.oauth-login p.user {margin: 3px;}
+
+    body.oauth-login p.user img {
+        vertical-align: middle;
+    }
+
+    body.oauth-login div.actions p.allow {margin-bottom: 15px}
+
+    body.oauth-login div.actions p.signin {margin-bottom: 7px !important;}
+
+    @media screen and (min-width: 520px){
+        body.oauth-login #oauth .signin, #oauth .signup {
+            width: 117px;
+        }
+    }
+  </style>
+</head>
+<body class="oauth-login">
+<div class="login_page cont">
+<div class="login_box box">
+<div id="oauth" class="content">
+<h1><a href="/" class="logo">Untappd</a></h1>
+<hr />
+<div class="error" style="display: none;">
+<p>There was some kind of error.</p>
+</div>
+<h2>Connect your Untappd account with:</h2>
+<div class="details">
+ <form id="authForm" method="get" action="/oauth/authenticate">
+<div class="app">
+<img height="50" width="50" src="https://untappd.akamaized.net/apps/ut_connection_default.png" />
+<span>
+<h3>TruBoo</h3>
+<a href="andrewtruex.software" />Visit App Site</a>
+</span>
+</div>
+<input type="hidden" name="client_id" value="0A0974D4A29D8FA088433A6A3797E99D11F893A1" />
+<input type="hidden" name="redirect_url" value="andrewtruex.software" />
+<input type="hidden" name="response_type" value="code" />
+<p class="permissions">By connecting, this application will be allowed to create check-ins, access your check-in history, friends list, and wishlist as well as your profile information. You can remove this connection at any time in your <a href="/account/apps">connections tab</a>.</p>
+</form>
+</div>
+<hr />
+<div class="actions">
+<p class="signin"><a class="button yellow submit-btn" href="/login?client_id=0A0974D4A29D8FA088433A6A3797E99D11F893A1&go_to=https%3A%2F%2Funtappd.com%2Foauth%2Fauthenticate%3Fclient_id%3D0A0974D4A29D8FA088433A6A3797E99D11F893A1%26redirect_url%3Dandrewtruex.software%26response_type%3Dcode" class="yellow_btn">Sign In</a></p>
+<p class="signup"><a href="/create?go_to=https%3A%2F%2Funtappd.com%2Foauth%2Fauthenticate%3Fclient_id%3D0A0974D4A29D8FA088433A6A3797E99D11F893A1%26redirect_url%3Dandrewtruex.software%26response_type%3Dcode" class="button blue">Join Now</a></p>
+</div>
+<div style="display: none;" class="loading"><img src="https://untappd.akamaized.net/assets/images/spinner.gif" /></div>
+</div>
+</div>
+</div>
+</body>
+</html>

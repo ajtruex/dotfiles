@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Hunt: Page not found</title>
+  <style>
+  body {
+    background-color: #E3645C;
+    color: #fff;
+    text-align: center;
+    font-family: Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  </style>
+</head>
+
+<body>
+  <a title="Go back to Product Hunt" href="http://producthunt.com">
+    <img style="border: none; margin-top: 80px" src="/404.png" alt="Can't find this page, sorry">
+  </a>
+
+</body>
+</html>

@@ -1,0 +1,138 @@
+{
+  "_from": "npkill@0.7.2",
+  "_id": "npkill@0.7.2",
+  "_inBundle": false,
+  "_integrity": "sha512-CEE2LEaNhNBG/ZInZbU49DGfwuwA6aLhAUsMZ1mH9TnOMNmJfLv08NGzZH7xWNTFMxHHjlntcUdAP68Lnd90xA==",
+  "_location": "/npkill",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "npkill@0.7.2",
+    "name": "npkill",
+    "escapedName": "npkill",
+    "rawSpec": "0.7.2",
+    "saveSpec": null,
+    "fetchSpec": "0.7.2"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/npkill/-/npkill-0.7.2.tgz",
+  "_shasum": "21c6f01fa30f5eb1c4c752e271e72643fc7c711d",
+  "_spec": "npkill@0.7.2",
+  "_where": "/Users/andrewtruex/ux",
+  "author": {
+    "name": "Nya Garcia & Juan Torres"
+  },
+  "bin": {
+    "npkill": "lib/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/zaldih/npkill/issues"
+  },
+  "bundleDependencies": false,
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "dependencies": {
+    "ansi-escapes": "^4.3.1",
+    "colors": "^1.4.0",
+    "get-folder-size": "^2.0.1",
+    "keypress": "^0.2.1",
+    "node-emoji": "^1.10.0",
+    "rxjs": "^6.5.4",
+    "tsconfig-paths": "^3.9.0"
+  },
+  "deprecated": false,
+  "description": "List any node_modules directories in your system, as well as the space they take up. You can then select which ones you want to erase to free up space.",
+  "devDependencies": {
+    "@commitlint/config-conventional": "^8.3.4",
+    "@stryker-mutator/core": "^3.1.0",
+    "@stryker-mutator/jest-runner": "^3.1.0",
+    "@stryker-mutator/typescript": "^3.1.0",
+    "@types/colors": "^1.2.1",
+    "@types/jest": "^25.1.4",
+    "@types/node": "^13.9.8",
+    "commitlint": "^8.3.5",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^5.0.1",
+    "husky": "^4.2.3",
+    "jest": "^25.2.4",
+    "lint-staged": "^10.1.0",
+    "np": "^6.2.0",
+    "pre-commit": "^1.2.2",
+    "prettier": "^2.0.2",
+    "remark-lint": "^7.0.0",
+    "ts-jest": "^25.3.0",
+    "ts-node": "^8.8.1",
+    "tslint": "^6.1.0",
+    "typescript": "^3.8.3"
+  },
+  "ethereum": "0x7668e86c8bdb52034606db5aa0d2d4d73a0d4259",
+  "files": [
+    "lib/**/*"
+  ],
+  "homepage": "https://github.com/zaldih/npkill#readme",
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged"
+    }
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.(t|j)sx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
+  "keywords": [
+    "cli",
+    "free up space",
+    "npm",
+    "node",
+    "modules",
+    "clean",
+    "tool",
+    "delete",
+    "find",
+    "interactive"
+  ],
+  "license": "MIT",
+  "lint-staged": {
+    "*.{js,ts,css,json,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "main": "lib/index.js",
+  "name": "npkill",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaldih/npkill.git"
+  },
+  "scripts": {
+    "build": "gulp",
+    "build-go-bin": "gulp buildGo",
+    "release": "npm run build && np",
+    "start": "ts-node -r tsconfig-paths/register ./src/main.ts",
+    "test": "jest",
+    "test:mutant": "stryker run",
+    "test:watch": "jest --watch"
+  },
+  "version": "0.7.2"
+}

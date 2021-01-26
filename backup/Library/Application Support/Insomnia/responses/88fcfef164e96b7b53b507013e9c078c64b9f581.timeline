@@ -1,0 +1,257 @@
+[
+	{
+		"name": "TEXT",
+		"value": "Preparing request to https://dva9vm8f1h.execute-api.us-east-2.amazonaws.com/production/restaurants",
+		"timestamp": 1604967829329
+	},
+	{
+		"name": "TEXT",
+		"value": "Current time is 2020-11-10T00:23:49.329Z",
+		"timestamp": 1604967829329
+	},
+	{
+		"name": "TEXT",
+		"value": "Using libcurl/7.69.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.7 libidn2/2.1.1 libssh2/1.9.0 nghttp2/1.40.0",
+		"timestamp": 1604967829329
+	},
+	{
+		"name": "TEXT",
+		"value": "Using default HTTP version",
+		"timestamp": 1604967829329
+	},
+	{
+		"name": "TEXT",
+		"value": "Disable timeout",
+		"timestamp": 1604967829329
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable automatic URL encoding",
+		"timestamp": 1604967829329
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable SSL validation",
+		"timestamp": 1604967829329
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable cookie sending with jar of 0 cookies",
+		"timestamp": 1604967829329
+	},
+	{
+		"name": "TEXT",
+		"value": "  Trying 18.190.39.103:443...\n",
+		"timestamp": 1604967829369
+	},
+	{
+		"name": "TEXT",
+		"value": "Connected to dva9vm8f1h.execute-api.us-east-2.amazonaws.com (18.190.39.103) port 443 (#0)\n",
+		"timestamp": 1604967829402
+	},
+	{
+		"name": "TEXT",
+		"value": "ALPN, offering h2\n",
+		"timestamp": 1604967829411
+	},
+	{
+		"name": "TEXT",
+		"value": "ALPN, offering http/1.1\n",
+		"timestamp": 1604967829411
+	},
+	{
+		"name": "TEXT",
+		"value": "successfully set certificate verify locations:\n",
+		"timestamp": 1604967829438
+	},
+	{
+		"name": "TEXT",
+		"value": "  CAfile: /etc/ssl/cert.pem\n  CApath: none\n",
+		"timestamp": 1604967829438
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (OUT), TLS handshake, Client hello (1):\n",
+		"timestamp": 1604967829440
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (IN), TLS handshake, Server hello (2):\n",
+		"timestamp": 1604967829476
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.2 (IN), TLS handshake, Certificate (11):\n",
+		"timestamp": 1604967829476
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.2 (IN), TLS handshake, Server key exchange (12):\n",
+		"timestamp": 1604967829480
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.2 (IN), TLS handshake, Server finished (14):\n",
+		"timestamp": 1604967829480
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.2 (OUT), TLS handshake, Client key exchange (16):\n",
+		"timestamp": 1604967829482
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):\n",
+		"timestamp": 1604967829482
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.2 (OUT), TLS handshake, Finished (20):\n",
+		"timestamp": 1604967829482
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.2 (IN), TLS handshake, Finished (20):\n",
+		"timestamp": 1604967829513
+	},
+	{
+		"name": "TEXT",
+		"value": "SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256\n",
+		"timestamp": 1604967829513
+	},
+	{
+		"name": "TEXT",
+		"value": "ALPN, server accepted to use h2\n",
+		"timestamp": 1604967829513
+	},
+	{
+		"name": "TEXT",
+		"value": "Server certificate:\n",
+		"timestamp": 1604967829513
+	},
+	{
+		"name": "TEXT",
+		"value": " subject: CN=*.execute-api.us-east-2.amazonaws.com\n",
+		"timestamp": 1604967829513
+	},
+	{
+		"name": "TEXT",
+		"value": " start date: Aug 29 00:00:00 2020 GMT\n",
+		"timestamp": 1604967829513
+	},
+	{
+		"name": "TEXT",
+		"value": " expire date: Sep 28 12:00:00 2021 GMT\n",
+		"timestamp": 1604967829513
+	},
+	{
+		"name": "TEXT",
+		"value": " subjectAltName: host \"dva9vm8f1h.execute-api.us-east-2.amazonaws.com\" matched cert's \"*.execute-api.us-east-2.amazonaws.com\"\n",
+		"timestamp": 1604967829513
+	},
+	{
+		"name": "TEXT",
+		"value": " issuer: C=US; O=Amazon; OU=Server CA 1B; CN=Amazon\n",
+		"timestamp": 1604967829513
+	},
+	{
+		"name": "TEXT",
+		"value": " SSL certificate verify ok.\n",
+		"timestamp": 1604967829513
+	},
+	{
+		"name": "TEXT",
+		"value": "Using HTTP2, server supports multi-use\n",
+		"timestamp": 1604967829514
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection state changed (HTTP/2 confirmed)\n",
+		"timestamp": 1604967829514
+	},
+	{
+		"name": "TEXT",
+		"value": "Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0\n",
+		"timestamp": 1604967829514
+	},
+	{
+		"name": "TEXT",
+		"value": "Using Stream ID: 1 (easy handle 0x7fa3a1165200)\n",
+		"timestamp": 1604967829515
+	},
+	{
+		"name": "HEADER_OUT",
+		"value": "GET /production/restaurants HTTP/2\r\nHost: dva9vm8f1h.execute-api.us-east-2.amazonaws.com\r\nuser-agent: insomnia/2020.3.3\r\naccept: */*\r\n\r\n",
+		"timestamp": 1604967829515
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection state changed (MAX_CONCURRENT_STREAMS == 128)!\n",
+		"timestamp": 1604967829515
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "HTTP/2 403 \r\n",
+		"timestamp": 1604967829552
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "date: Tue, 10 Nov 2020 00:23:49 GMT\r\n",
+		"timestamp": 1604967829552
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "content-type: application/json\r\n",
+		"timestamp": 1604967829552
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "content-length: 23\r\n",
+		"timestamp": 1604967829552
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "x-amzn-requestid: 71d6d262-df67-4a4a-9a3b-c281c5f9ca9b\r\n",
+		"timestamp": 1604967829552
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "access-control-allow-origin: *\r\n",
+		"timestamp": 1604967829552
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token\r\n",
+		"timestamp": 1604967829552
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "x-amzn-errortype: ForbiddenException\r\n",
+		"timestamp": 1604967829552
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "x-amz-apigw-id: Vw-PYFlHCYcFbbQ=\r\n",
+		"timestamp": 1604967829552
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "access-control-allow-methods: GET,OPTIONS\r\n",
+		"timestamp": 1604967829552
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "\r\n",
+		"timestamp": 1604967829552
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 23 B chunk",
+		"timestamp": 1604967829552
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection #0 to host dva9vm8f1h.execute-api.us-east-2.amazonaws.com left intact\n",
+		"timestamp": 1604967829554
+	}
+]

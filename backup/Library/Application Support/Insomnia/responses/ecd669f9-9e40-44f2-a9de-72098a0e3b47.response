@@ -1,0 +1,1 @@
+{"meta":{"code":500,"error_detail":"Your missing the 'client_secret' and\/or 'client_id' parameter","error_type":"invalid_param","developer_friendly":"v4\/user\/checkins\/gregavola","response_time":{"time":0.001,"measure":"seconds"}},"response":[]}

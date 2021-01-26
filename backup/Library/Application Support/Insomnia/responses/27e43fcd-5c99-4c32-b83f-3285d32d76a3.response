@@ -1,0 +1,1 @@
+{"meta":{"http_code":500,"error_type":"param_error","error_detail":"Missing either the client_id, redirect_url, client_secret or code parameter. Please check your request a try again."},"response":[]}

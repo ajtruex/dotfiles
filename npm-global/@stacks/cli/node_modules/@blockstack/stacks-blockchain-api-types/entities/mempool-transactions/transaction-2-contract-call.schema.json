@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "MempoolContractCallTransaction",
+  "description": "Describes representation of a Type 2 Stacks 2.0 transaction: Contract Call",
+  "allOf": [
+    {
+      "$ref": "./abstract-transaction.schema.json"
+    },
+    {
+      "type": "object",
+      "required": ["tx_type", "contract_call", "post_conditions"],
+      "properties": {
+        "tx_type": {
+          "type": "string",
+          "enum": ["contract_call"]
+        },
+        "contract_call": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["contract_id", "function_name"],
+          "properties": {
+            "contract_id": {
+              "type": "string"
+            },
+            "function_name": {
+              "type": "string",
+              "description": "Name of the Clarity function to be invoked"
+            }
+          }
+        },
+        "post_conditions": {
+          "type": "array",
+          "items": {
+            "$ref": "../post-conditions/post-condition.schema.json"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "_from": "@stacks/cli@1.0.1",
+  "_id": "@stacks/cli@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-nJWHlQat1mzV64MmGTYy9V/U0UpMmroEhTcU/0sDRrpCUaaa3GCcDyISVqUwDvxV1CFqA/zCmKan1b0nwYX7xQ==",
+  "_location": "/@stacks/cli",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@stacks/cli@1.0.1",
+    "name": "@stacks/cli",
+    "escapedName": "@stacks%2fcli",
+    "scope": "@stacks",
+    "rawSpec": "1.0.1",
+    "saveSpec": null,
+    "fetchSpec": "1.0.1"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/@stacks/cli/-/cli-1.0.1.tgz",
+  "_shasum": "29f57ffe4d30e52fc661d56f2f39634f637f3094",
+  "_spec": "@stacks/cli@1.0.1",
+  "_where": "/Users/andrewtruex/ux",
+  "author": {
+    "name": "Jude Nelson",
+    "email": "jude@blockstack.com",
+    "url": "https://blockstack.com"
+  },
+  "bin": {
+    "stacks": "bin.js",
+    "stx": "bin.js"
+  },
+  "bugs": {
+    "url": "https://github.com/blockstack/blockstack.js/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Ken Liao",
+      "email": "yukanliao@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "@stacks/auth": "^1.0.1",
+    "@stacks/blockchain-api-client": "^0.34.1",
+    "@stacks/network": "^1.0.1",
+    "@stacks/stacking": "^1.0.1",
+    "@stacks/storage": "^1.0.1",
+    "@stacks/transactions": "^1.0.1",
+    "ajv": "^4.11.5",
+    "bip32": "^2.0.4",
+    "bip39": "^3.0.2",
+    "bitcoinjs-lib": "^5.1.10",
+    "blockstack": "^19.2.2",
+    "c32check": "^0.0.6",
+    "codecov": "^3.7.2",
+    "cors": "^2.8.4",
+    "express": "^4.17.1",
+    "express-winston": "^3.1.0",
+    "inquirer": "^7.1.0",
+    "jsontokens": "^2.0.2",
+    "node-fetch": "^2.6.0",
+    "ripemd160": "^2.0.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7",
+    "winston": "^3.2.1",
+    "zone-file": "^0.2.2"
+  },
+  "deprecated": false,
+  "description": "Stacks command line tool",
+  "devDependencies": {
+    "@types/cors": "^2.8.5",
+    "@types/express": "^4.16.1",
+    "@types/express-winston": "^3.0.1",
+    "@types/inquirer": "^6.5.0",
+    "@types/jest": "^24.9.0",
+    "@types/node-fetch": "^2.5.0",
+    "@types/ripemd160": "^2.0.0",
+    "jest": "^24.9.0",
+    "minimist": ">=1.2.3",
+    "ts-jest": "^26.4.1",
+    "tsdx": "^0.14.0"
+  },
+  "directories": {
+    "lib": "lib",
+    "dist": "dist",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "gitHead": "788006ea42257fc515c0678dd276ddd6dbdc2b9c",
+  "homepage": "https://blockstack.org",
+  "keywords": [
+    "stacks",
+    "command",
+    "blockchain",
+    "id",
+    "auth",
+    "authentication",
+    "bitcoin",
+    "blockchain auth",
+    "blockchain authentication",
+    "blockchainid",
+    "blockchain id",
+    "bitcoin auth",
+    "bitcoin authentication",
+    "bitcoin login",
+    "blockchain login",
+    "authorization",
+    "login",
+    "signin",
+    "sso",
+    "crypto",
+    "cryptography",
+    "token",
+    "blockstack",
+    "blockstack auth",
+    "profile",
+    "identity",
+    "ethereum"
+  ],
+  "license": "GPL-3.0-or-later",
+  "main": "lib/index.js",
+  "name": "@stacks/cli",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blockstack/blockstack.js.git"
+  },
+  "scripts": {
+    "build": "tsdx build --format cjs,esm,umd",
+    "codecovUpload": "codecov",
+    "dev": "ts-node --project ./tsconfig.dev.json src/index.ts",
+    "prepublishOnly": "yarn test && yarn build",
+    "test": "jest",
+    "test:watch": "jest --watch --coverage=false"
+  },
+  "version": "1.0.1"
+}

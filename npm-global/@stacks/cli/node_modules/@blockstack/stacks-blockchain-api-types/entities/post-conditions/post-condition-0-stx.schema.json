@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PostConditionStx",
+  "type": "object",
+  "allOf": [
+    {
+      "type": "object",
+      "required": ["principal"],
+      "properties": {
+        "principal": {
+          "$ref": "./post-condition-principal.schema.json"
+        }
+      }
+    },
+    {
+      "type": "object",
+      "required": ["condition_code", "amount", "type"],
+      "properties": {
+        "condition_code": {
+          "$ref": "./post-condition-fungible-condition-code.schema.json"
+        },
+        "amount": {
+          "type": "string"
+        },
+        "type": {
+          "enum": ["stx"],
+          "type": "string"
+        }
+      }
+    }
+  ]
+}

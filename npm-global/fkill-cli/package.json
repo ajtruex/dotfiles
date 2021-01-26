@@ -1,0 +1,96 @@
+{
+  "_from": "fkill-cli@6.0.1",
+  "_id": "fkill-cli@6.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-eJdNdyHofekXmSGI76E2A4GBJ7FAvuAgLV7rAgL6uZXV9+ZKwNoBjt/2hxHWmDZZ9x0EEWM3wHb2b0J7UNGbBw==",
+  "_location": "/fkill-cli",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "fkill-cli@6.0.1",
+    "name": "fkill-cli",
+    "escapedName": "fkill-cli",
+    "rawSpec": "6.0.1",
+    "saveSpec": null,
+    "fetchSpec": "6.0.1"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/fkill-cli/-/fkill-cli-6.0.1.tgz",
+  "_shasum": "6593bd4d084a38327af3b10b54966119035ae6fd",
+  "_spec": "fkill-cli@6.0.1",
+  "_where": "/Users/andrewtruex/ux",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "bin": {
+    "fkill": "cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/sindresorhus/fkill-cli/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "cli-truncate": "^2.1.0",
+    "esc-exit": "^2.0.0",
+    "fkill": "^7.0.0",
+    "inquirer": "^7.0.4",
+    "inquirer-autocomplete-prompt": "^1.0.1",
+    "meow": "^6.0.0",
+    "num-sort": "^2.0.0",
+    "pid-from-port": "^1.1.1",
+    "ps-list": "^6.2.0"
+  },
+  "deprecated": false,
+  "description": "Fabulously kill processes. Cross-platform.",
+  "devDependencies": {
+    "ava": "^1.4.0",
+    "delay": "^4.1.0",
+    "execa": "^4.0.0",
+    "get-port": "^5.1.1",
+    "noop-process": "^4.0.0",
+    "process-exists": "^4.0.0",
+    "xo": "^0.25.4"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "cli.js",
+    "interactive.js"
+  ],
+  "funding": "https://github.com/sponsors/sindresorhus",
+  "homepage": "https://github.com/sindresorhus/fkill-cli#readme",
+  "keywords": [
+    "cli-app",
+    "cli",
+    "fkill",
+    "kill",
+    "killing",
+    "killall",
+    "taskkill",
+    "sigkill",
+    "sigterm",
+    "force",
+    "exit",
+    "zap",
+    "die",
+    "ps",
+    "proc"
+  ],
+  "license": "MIT",
+  "name": "fkill-cli",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/fkill-cli.git"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "version": "6.0.1"
+}

@@ -1,0 +1,37 @@
+[
+	{
+		"name": "TEXT",
+		"value": "Preparing request to https://api.untappd.com/v4/user/checkins/gregavola",
+		"timestamp": 1584909249944
+	},
+	{
+		"name": "TEXT",
+		"value": "Using libcurl/7.67.0 SecureTransport zlib/1.2.11",
+		"timestamp": 1584909249944
+	},
+	{
+		"name": "TEXT",
+		"value": "Current time is 2020-03-22T20:34:09.944Z",
+		"timestamp": 1584909249944
+	},
+	{
+		"name": "TEXT",
+		"value": "Disable timeout",
+		"timestamp": 1584909249944
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable automatic URL encoding",
+		"timestamp": 1584909249944
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable SSL validation",
+		"timestamp": 1584909249944
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable cookie sending with jar of 11 cookies",
+		"timestamp": 1584909249945
+	}
+]

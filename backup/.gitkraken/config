@@ -1,0 +1,87 @@
+{
+  "lastUpgradeScriptRun": "v6.5.0",
+  "appId": "4af53654bd3c3679b5e76527aa62b1a598a64242",
+  "registration": {
+    "email": "andrewtruex@gmail.com",
+    "name": "Andrew Truex",
+    "status": "activated",
+    "trialStatus": null,
+    "loginType": "github",
+    "providerToken": {
+      "access_token": "5df29942528363f275b7f25dfba5dd38206a813c",
+      "token_type": "bearer",
+      "scope": "admin:public_key,read:org,repo,user:email,workflow",
+      "expires_at": null
+    },
+    "date": "2019-10-09T07:17:43.187Z",
+    "EULA": {
+      "version": "1.5.0",
+      "status": "agree_verified"
+    }
+  },
+  "userId": "73b0e3c1-81ce-4b05-9f84-8ac8025767a4",
+  "licensedFeatures": [
+    "pro",
+    "timelines:pro",
+    "suite:pro",
+    "boards:pro",
+    "student",
+    "timelines:student",
+    "suite:student",
+    "boards:student"
+  ],
+  "userFeatures": [
+    {
+      "betaFeaturesEnabled": false,
+      "name": "gitkraken"
+    },
+    {
+      "betaFeaturesEnabled": false,
+      "name": "glo"
+    },
+    {
+      "betaFeaturesEnabled": false,
+      "name": "timelines"
+    }
+  ],
+  "hasNotConfirmedNonCommercialUseWithExpiredProLicense": false,
+  "hasSeenNewUserOnboarding": true,
+  "lastVersion": "7.2.0",
+  "lastReleaseNotesDisplayed": "7.2.0",
+  "windowSettings": {
+    "x": 16,
+    "y": 24,
+    "width": 1251,
+    "height": 777,
+    "fullScreen": false,
+    "maximized": false
+  },
+  "fuzzyFinderMetadata": {
+    "queryMetadata": {
+      "TOP": {
+        "ope": [
+          {
+            "id": "domain-openFile",
+            "timestamps": [
+              1570607978826
+            ],
+            "total": 1
+          }
+        ]
+      }
+    },
+    "itemMetadata": {
+      "TOP": {
+        "domain-openFile": {
+          "id": "domain-openFile",
+          "timestamps": [
+            1570607978825,
+            1570608057532,
+            1570608108443
+          ],
+          "total": 3
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "KindleUnpack - The Plugindir_chooser": "/Users/andrewtruex/Downloads",
+  "add books dialog dir": "/Users/andrewtruex/Downloads",
+  "change cover dialog": "/Users/andrewtruex/Downloads",
+  "notified-version-updates": {
+    "__class__": "set",
+    "__value__": [
+      "5.1",
+      "4.11"
+    ]
+  },
+  "recursive book import root dir dialog": "/Users/andrewtruex/Library/Containers/com.amazon.Kindle/Data/Library/Application Support/Kindle/My Kindle Content",
+  "recursive-archive-add": "/Users/andrewtruex/Calibre Library",
+  "save to disk dialog": "/Users/andrewtruex/Downloads",
+  "sort_history": [
+    [
+      "title",
+      true
+    ],
+    [
+      "timestamp",
+      false
+    ],
+    [
+      "title",
+      true
+    ],
+    [
+      "title",
+      true
+    ],
+    [
+      "timestamp",
+      false
+    ],
+    [
+      "title",
+      true
+    ],
+    [
+      "timestamp",
+      false
+    ]
+  ],
+  "welcome_wizard_device": "default",
+  "welcome_wizard_was_run": true
+}

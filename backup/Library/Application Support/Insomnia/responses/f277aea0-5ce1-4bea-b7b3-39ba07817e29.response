@@ -1,0 +1,11 @@
+{
+  "args": {}, 
+  "headers": {
+    "Accept": "*/*", 
+    "Host": "httpbin.org", 
+    "User-Agent": "insomnia/7.1.1", 
+    "X-Amzn-Trace-Id": "Root=1-5f192aa7-0c1808dcb92737f49a302f54"
+  }, 
+  "origin": "50.90.240.43", 
+  "url": "https://httpbin.org/get"
+}

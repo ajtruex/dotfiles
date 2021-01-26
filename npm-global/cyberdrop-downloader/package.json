@@ -1,0 +1,62 @@
+{
+  "_from": "cyberdrop-downloader@1.0.0",
+  "_id": "cyberdrop-downloader@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-/50k+rYvMFRQbydHF/q5pCcj4kv36jU7s7teh66vi3Uoa9A0ZPRT3KQXlQnnWUKBXUWf3BvVxyfZc7NwO77kPw==",
+  "_location": "/cyberdrop-downloader",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "cyberdrop-downloader@1.0.0",
+    "name": "cyberdrop-downloader",
+    "escapedName": "cyberdrop-downloader",
+    "rawSpec": "1.0.0",
+    "saveSpec": null,
+    "fetchSpec": "1.0.0"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/cyberdrop-downloader/-/cyberdrop-downloader-1.0.0.tgz",
+  "_shasum": "fb202638f29401bc81235de27c6f8b323afe2506",
+  "_spec": "cyberdrop-downloader@1.0.0",
+  "_where": "/Users/andrewtruex/ux",
+  "author": {
+    "name": "Fshy",
+    "email": "fshy@arc.moe",
+    "url": "https://arc.moe/"
+  },
+  "bin": {
+    "cyberdrop": "app.js"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/Fshy/cyberdrop-downloader/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chalk": "^3.0.0",
+    "cheerio": "^1.0.0-rc.3",
+    "lodash": "^4.17.15"
+  },
+  "deprecated": false,
+  "description": "",
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "homepage": "https://gitlab.com/Fshy/cyberdrop-downloader#readme",
+  "license": "MIT",
+  "main": "app.js",
+  "name": "cyberdrop-downloader",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/Fshy/cyberdrop-downloader.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}

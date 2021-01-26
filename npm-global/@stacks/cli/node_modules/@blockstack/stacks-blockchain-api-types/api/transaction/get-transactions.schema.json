@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "GET request that returns transactions",
+  "title": "TransactionResults",
+  "type": "object",
+  "required": ["results", "limit", "offset", "total"],
+  "properties": {
+    "limit": {
+      "type": "integer",
+      "maximum": 200,
+      "description": "The number of transactions to return"
+    },
+    "offset": {
+      "type": "integer",
+      "description": "The number to transactions to skip (starting at `0`)"
+    },
+    "total": {
+      "type": "integer",
+      "description": "The number of transactions available"
+    },
+    "results": {
+      "type": "array",
+      "items": {
+        "$ref": "../../entities/transactions/transaction.schema.json"
+      }
+    }
+  }
+}

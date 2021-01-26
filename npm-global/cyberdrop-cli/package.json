@@ -1,0 +1,65 @@
+{
+  "_from": "cyberdrop-cli@0.1.5",
+  "_id": "cyberdrop-cli@0.1.5",
+  "_inBundle": false,
+  "_integrity": "sha512-ZkGj3pZMjuWOLqUPBa/IFXvBlcss6X4tLbSaOMBXJPTDtoIVmMdmaxmsWX0YXXAnkBJtg2NaDLc5KvpgEkqomw==",
+  "_location": "/cyberdrop-cli",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "cyberdrop-cli@0.1.5",
+    "name": "cyberdrop-cli",
+    "escapedName": "cyberdrop-cli",
+    "rawSpec": "0.1.5",
+    "saveSpec": null,
+    "fetchSpec": "0.1.5"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/cyberdrop-cli/-/cyberdrop-cli-0.1.5.tgz",
+  "_shasum": "8460e5e1e49f0435683d9c5f2e57e59407829f0e",
+  "_spec": "cyberdrop-cli@0.1.5",
+  "_where": "/Users/andrewtruex/ux",
+  "author": {
+    "name": "izqalan"
+  },
+  "bin": {
+    "cyberdrop-cli": "bin/command.js"
+  },
+  "bugs": {
+    "url": "https://github.com/izqalan/CyberDrop-cli/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "commander": "^5.0.0",
+    "download": "^7.1.0",
+    "esm": "^3.2.25",
+    "ora": "^4.0.3",
+    "x-ray": "^2.3.4"
+  },
+  "deprecated": false,
+  "description": "cyberdrop album downloader",
+  "homepage": "https://github.com/izqalan/CyberDrop-cli#readme",
+  "keywords": [
+    "cyberdrop",
+    "cli",
+    "downloader"
+  ],
+  "license": "GPL-3.0",
+  "main": "index.js",
+  "name": "cyberdrop-cli",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/izqalan/CyberDrop-cli.git"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.5"
+}

@@ -1,0 +1,13 @@
+[user]
+	email = andrewtruex@gmail.com
+	name = Andrew Truex
+	signingkey = B640E292DB470E69B1AF89E964F7ABBDC4028BF6
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[alias]
+	nccommit = commit -a --allow-empty-message -m ''
+[core]
+	editor = code --wait

@@ -1,0 +1,31 @@
+cr_sdk_initialize: Adobe Photoshop Camera Raw 13.1 (Macintosh), version 13.1x658, 64-bit, Release
+gDNGMaxSIMD: 3
+Memory allocator: baseline (cr_memory_allocator)
+TBB threading: no
+PatchMatch initialized (version 5.0.0.0). Using 4 threads.
+OS: 10.16
+CPU: Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz
+MPProcessorCount (hyperthreading = false): 2
+MPProcessorCount (hyperthreading = true): 4
+MPThreadCount: 4
+std::thread::hardware_concurrency: 4
+AVX support: yes
+AVX2 support: yes
+AVX512 support: no
+System physical RAM: 8 GB
+Initialize GPU system
+Read GPU config
+Safe load GPU
+Loaded GPU system: Metal
+GPU primary driver version: 10.16.0
+GPU device count: 1
+GPU device names: Intel(R) Iris(TM) Graphics 6100
+GPU3 allow list: no
+GPU3 deny list: yes
+*** GPU Warning: GPU model is deny-listed for GPU3. ***
+GPU Init Status (part 1): I2_GPU2
+GPU3 Hard Status Result (part 1): fail_black_list_gpu3
+GPU3 Soft Status Result (part 1): not_checked
+Intel Compiler: no
+Terminate GPU system
+cr_sdk_terminate

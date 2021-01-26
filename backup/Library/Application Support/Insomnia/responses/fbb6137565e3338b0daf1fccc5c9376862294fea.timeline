@@ -1,0 +1,37 @@
+[
+	{
+		"name": "TEXT",
+		"value": "Preparing request to https://api.producthunt.com/v2/oauth/authorize",
+		"timestamp": 1582520180771
+	},
+	{
+		"name": "TEXT",
+		"value": "Using libcurl/7.67.0 SecureTransport zlib/1.2.11",
+		"timestamp": 1582520180771
+	},
+	{
+		"name": "TEXT",
+		"value": "Current time is 2020-02-24T04:56:20.771Z",
+		"timestamp": 1582520180771
+	},
+	{
+		"name": "TEXT",
+		"value": "Disable timeout",
+		"timestamp": 1582520180771
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable automatic URL encoding",
+		"timestamp": 1582520180771
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable SSL validation",
+		"timestamp": 1582520180771
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable cookie sending with jar of 4 cookies",
+		"timestamp": 1582520180771
+	}
+]

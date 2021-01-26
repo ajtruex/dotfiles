@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "TransactionEvent",
+  "oneOf": [
+    {
+      "$ref": "./transaction-event-smart-contract-log.schema.json"
+    },
+    {
+      "$ref": "./transaction-event-stx-lock.schema.json"
+    },
+    {
+      "$ref": "./transaction-event-stx-asset.schema.json"
+    },
+    {
+      "$ref": "./transaction-event-fungible-asset.schema.json"
+    },
+    {
+      "$ref": "./transaction-event-non-fungible-asset.schema.json"
+    }
+  ]
+}

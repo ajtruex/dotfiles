@@ -1,0 +1,217 @@
+[
+	{
+		"name": "TEXT",
+		"value": "Preparing request to https://xkcd.com/info.0.json?title&title",
+		"timestamp": 1595485538220
+	},
+	{
+		"name": "TEXT",
+		"value": "Using libcurl/7.71.1 SecureTransport zlib/1.2.11",
+		"timestamp": 1595485538220
+	},
+	{
+		"name": "TEXT",
+		"value": "Current time is 2020-07-23T06:25:38.220Z",
+		"timestamp": 1595485538220
+	},
+	{
+		"name": "TEXT",
+		"value": "Disable timeout",
+		"timestamp": 1595485538220
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable automatic URL encoding",
+		"timestamp": 1595485538220
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable SSL validation",
+		"timestamp": 1595485538220
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable cookie sending with jar of 11 cookies",
+		"timestamp": 1595485538221
+	},
+	{
+		"name": "TEXT",
+		"value": "Too old connection (156 seconds), disconnect it\n",
+		"timestamp": 1595485538225
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection 2 seems to be dead!\n",
+		"timestamp": 1595485538225
+	},
+	{
+		"name": "TEXT",
+		"value": "Closing connection 2\n",
+		"timestamp": 1595485538225
+	},
+	{
+		"name": "TEXT",
+		"value": "Hostname in DNS cache was stale, zapped\n",
+		"timestamp": 1595485538225
+	},
+	{
+		"name": "TEXT",
+		"value": "  Trying 151.101.0.67:443...\n",
+		"timestamp": 1595485538229
+	},
+	{
+		"name": "TEXT",
+		"value": "Connected to xkcd.com (151.101.0.67) port 443 (#3)\n",
+		"timestamp": 1595485538258
+	},
+	{
+		"name": "TEXT",
+		"value": "ALPN, offering http/1.1\n",
+		"timestamp": 1595485538258
+	},
+	{
+		"name": "TEXT",
+		"value": "TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256\n",
+		"timestamp": 1595485538322
+	},
+	{
+		"name": "TEXT",
+		"value": "Server certificate: i.ssl.fastly.net\n",
+		"timestamp": 1595485538322
+	},
+	{
+		"name": "TEXT",
+		"value": "Server certificate: GlobalSign Organization Validation CA - SHA256 - G2\n",
+		"timestamp": 1595485538322
+	},
+	{
+		"name": "TEXT",
+		"value": "Server certificate: GlobalSign Root CA\n",
+		"timestamp": 1595485538322
+	},
+	{
+		"name": "HEADER_OUT",
+		"value": "GET /info.0.json?title&title HTTP/1.1\r\nHost: xkcd.com\r\nUser-Agent: insomnia/7.1.1\r\nContent-Type: application/json\r\nAccept: */*\r\nContent-Length: 16\r\n\r\n",
+		"timestamp": 1595485538322
+	},
+	{
+		"name": "DATA_OUT",
+		"value": "{\n\t\"title\": \"\"\n}",
+		"timestamp": 1595485538322
+	},
+	{
+		"name": "TEXT",
+		"value": "upload completely sent off: 16 out of 16 bytes\n",
+		"timestamp": 1595485538322
+	},
+	{
+		"name": "TEXT",
+		"value": "Mark bundle as not supporting multiuse\n",
+		"timestamp": 1595485538350
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "HTTP/1.1 200 OK\r\n",
+		"timestamp": 1595485538350
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Connection: keep-alive\r\n",
+		"timestamp": 1595485538350
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Content-Length: 297\r\n",
+		"timestamp": 1595485538350
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Server: nginx\r\n",
+		"timestamp": 1595485538350
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Content-Type: application/json\r\n",
+		"timestamp": 1595485538350
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Last-Modified: Thu, 23 Jul 2020 00:58:19 GMT\r\n",
+		"timestamp": 1595485538350
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "ETag: \"5f18e0ab-129\"\r\n",
+		"timestamp": 1595485538350
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Expires: Thu, 23 Jul 2020 06:30:38 GMT\r\n",
+		"timestamp": 1595485538350
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Cache-Control: max-age=300\r\n",
+		"timestamp": 1595485538350
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Accept-Ranges: bytes\r\n",
+		"timestamp": 1595485538350
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Date: Thu, 23 Jul 2020 06:25:38 GMT\r\n",
+		"timestamp": 1595485538350
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Via: 1.1 varnish\r\n",
+		"timestamp": 1595485538350
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Age: 0\r\n",
+		"timestamp": 1595485538350
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Served-By: cache-mdw17376-MDW\r\n",
+		"timestamp": 1595485538350
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Cache: MISS\r\n",
+		"timestamp": 1595485538350
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Cache-Hits: 0\r\n",
+		"timestamp": 1595485538350
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Timer: S1595485538.331426,VS0,VE11\r\n",
+		"timestamp": 1595485538350
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Vary: Accept-Encoding\r\n",
+		"timestamp": 1595485538350
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "\r\n",
+		"timestamp": 1595485538350
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 297 B chunk",
+		"timestamp": 1595485538350
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection #3 to host xkcd.com left intact\n",
+		"timestamp": 1595485538350
+	}
+]

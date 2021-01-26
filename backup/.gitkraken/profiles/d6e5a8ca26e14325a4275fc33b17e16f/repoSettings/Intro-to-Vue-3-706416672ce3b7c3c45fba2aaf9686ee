@@ -1,0 +1,199 @@
+{
+  "remoteParents": {
+    "github": {
+      "Code-Pop": {
+        "Intro-to-Vue-3": {
+          "hostingServiceType": "github",
+          "owner": "Code-Pop",
+          "name": "Intro-to-Vue-3"
+        }
+      }
+    }
+  },
+  "remoteHeadCollectionByRemoteName": {
+    "origin": {
+      "HEAD": {
+        "name": "HEAD",
+        "oid": "8d5ddd851e0d29f9ba073bcc94a719307c0f5238",
+        "local": 0,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": "refs/heads/master"
+      },
+      "refs/heads/L10-end": {
+        "name": "refs/heads/L10-end",
+        "oid": "30bcc44554d5770196108803d7e627e0bc752ca1",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/L10-start": {
+        "name": "refs/heads/L10-start",
+        "oid": "3cfcc7cbddd5ec164413c1f6991908e2ce88cf2e",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/L11-end": {
+        "name": "refs/heads/L11-end",
+        "oid": "950876ad0194df9ff1e3e8e4ad649016a21f528d",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/L11-start": {
+        "name": "refs/heads/L11-start",
+        "oid": "2f4972c7edada784ff6b6dcbc058c3e7f3339873",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/L2-end": {
+        "name": "refs/heads/L2-end",
+        "oid": "906f0da3c85c8678bffb6b9ee6bd5e80882a6ee8",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/L2-start": {
+        "name": "refs/heads/L2-start",
+        "oid": "8d5ddd851e0d29f9ba073bcc94a719307c0f5238",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/L3-end": {
+        "name": "refs/heads/L3-end",
+        "oid": "8a27ba9b93df7eba863a49e829cf6e5d2bd25c26",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/L3-start": {
+        "name": "refs/heads/L3-start",
+        "oid": "9322239192b07c899cbe0d65db9470f6886754a2",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/L4-end": {
+        "name": "refs/heads/L4-end",
+        "oid": "ab6ca8a28fc8e4f81b7653ec0880958faeef0f24",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/L4-start": {
+        "name": "refs/heads/L4-start",
+        "oid": "2e9bcf7c7276c358306282c1123423906b2b0d3b",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/L5-end": {
+        "name": "refs/heads/L5-end",
+        "oid": "faab1a40c8ea1d797e5fc3ac6613252760825761",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/L5-start": {
+        "name": "refs/heads/L5-start",
+        "oid": "4b1026e41e5911584b3c3518ba3f2aea32066d0f",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/L6-end": {
+        "name": "refs/heads/L6-end",
+        "oid": "a2cbfb577f15399c81ddafe6917e79e725671c59",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/L6-start": {
+        "name": "refs/heads/L6-start",
+        "oid": "1572b8c23e878c5822d4e03a02d5eee1151c7221",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/L7-end": {
+        "name": "refs/heads/L7-end",
+        "oid": "dec16ed0bf8c1c12c29a651c4b3047743553fd4d",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/L7-start": {
+        "name": "refs/heads/L7-start",
+        "oid": "d727eed0c9ccbba1bac89b41edc2d4f3eba176e3",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/L8-end": {
+        "name": "refs/heads/L8-end",
+        "oid": "c4f7046dd72357bb184842b4c1da50e618480fdf",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/L8-start": {
+        "name": "refs/heads/L8-start",
+        "oid": "287cbd63672555b3dd110bcce3b5015e63b53fb8",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/L9-end": {
+        "name": "refs/heads/L9-end",
+        "oid": "36379d3b5c1519f05c0f9fbacc53d63b8767104e",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/L9-start": {
+        "name": "refs/heads/L9-start",
+        "oid": "ac7285266858fc34ee992b60c42e3da66a6513b7",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/final": {
+        "name": "refs/heads/final",
+        "oid": "142346579f44a1e61b8426479b20387164ec6634",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/master": {
+        "name": "refs/heads/master",
+        "oid": "8d5ddd851e0d29f9ba073bcc94a719307c0f5238",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/heads/vue2_version": {
+        "name": "refs/heads/vue2_version",
+        "oid": "c35d35d2897dcf8e6defb8922ee61f16285c1df8",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/tags/Course-Starting-Code": {
+        "name": "refs/tags/Course-Starting-Code",
+        "oid": "8dd2042e95d9efbb9801a97050203c1d0123d4cb",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      },
+      "refs/tags/final-code": {
+        "name": "refs/tags/final-code",
+        "oid": "142346579f44a1e61b8426479b20387164ec6634",
+        "local": 1,
+        "loid": "0000000000000000000000000000000000000000",
+        "symrefTarget": null
+      }
+    }
+  }
+}

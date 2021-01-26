@@ -1,0 +1,197 @@
+[
+	{
+		"name": "TEXT",
+		"value": "Preparing request to https://api.untappd.com/v4/user/beers/ajtruex/?sort=highest_rated",
+		"timestamp": 1584909606544
+	},
+	{
+		"name": "TEXT",
+		"value": "Using libcurl/7.67.0 SecureTransport zlib/1.2.11",
+		"timestamp": 1584909606544
+	},
+	{
+		"name": "TEXT",
+		"value": "Current time is 2020-03-22T20:40:06.544Z",
+		"timestamp": 1584909606544
+	},
+	{
+		"name": "TEXT",
+		"value": "Disable timeout",
+		"timestamp": 1584909606544
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable automatic URL encoding",
+		"timestamp": 1584909606544
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable SSL validation",
+		"timestamp": 1584909606544
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable cookie sending with jar of 11 cookies",
+		"timestamp": 1584909606544
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection 4 seems to be dead!\n",
+		"timestamp": 1584909606549
+	},
+	{
+		"name": "TEXT",
+		"value": "Closing connection 4\n",
+		"timestamp": 1584909606549
+	},
+	{
+		"name": "TEXT",
+		"value": "  Trying 54.85.170.128:443...\n",
+		"timestamp": 1584909606584
+	},
+	{
+		"name": "TEXT",
+		"value": "TCP_NODELAY set\n",
+		"timestamp": 1584909606584
+	},
+	{
+		"name": "TEXT",
+		"value": "Connected to api.untappd.com (54.85.170.128) port 443 (#5)\n",
+		"timestamp": 1584909606631
+	},
+	{
+		"name": "TEXT",
+		"value": "ALPN, offering http/1.1\n",
+		"timestamp": 1584909606631
+	},
+	{
+		"name": "TEXT",
+		"value": "TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256\n",
+		"timestamp": 1584909606732
+	},
+	{
+		"name": "TEXT",
+		"value": "Server certificate: *.untappd.com\n",
+		"timestamp": 1584909606732
+	},
+	{
+		"name": "TEXT",
+		"value": "Server certificate: COMODO RSA Domain Validation Secure Server CA\n",
+		"timestamp": 1584909606732
+	},
+	{
+		"name": "TEXT",
+		"value": "Server certificate: COMODO RSA Certification Authority\n",
+		"timestamp": 1584909606732
+	},
+	{
+		"name": "HEADER_OUT",
+		"value": "GET /v4/user/beers/ajtruex/?sort=highest_rated HTTP/1.1\r\nHost: api.untappd.com\r\nUser-Agent: insomnia/7.1.1\r\nCookie: __cfduid=d66f6de801ad3ec9e427f13c715a520021584907196\r\nAuthorization: Bearer 794D4BD1989F28A6AE1BF16538B43050783CF73C\r\nAccept: */*\r\n\r\n",
+		"timestamp": 1584909606732
+	},
+	{
+		"name": "TEXT",
+		"value": "Mark bundle as not supporting multiuse\n",
+		"timestamp": 1584909606819
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "HTTP/1.1 200 OK\r\n",
+		"timestamp": 1584909606819
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Date: Sun, 22 Mar 2020 20:40:06 GMT\r\n",
+		"timestamp": 1584909606819
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Content-Type: application/json; charset=UTF-8\r\n",
+		"timestamp": 1584909606819
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Transfer-Encoding: chunked\r\n",
+		"timestamp": 1584909606819
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Connection: keep-alive\r\n",
+		"timestamp": 1584909606819
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Server: nginx\r\n",
+		"timestamp": 1584909606819
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Ratelimit-Limit: 100\r\n",
+		"timestamp": 1584909606819
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Ratelimit-Remaining: 92\r\n",
+		"timestamp": 1584909606819
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Auth-Type: user\r\n",
+		"timestamp": 1584909606819
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-API-Version: 4\r\n",
+		"timestamp": 1584909606819
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "80: \r\n",
+		"timestamp": 1584909606819
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Access-Control-Allow-Methods: GET, POST, OPTIONS, PUT\r\n",
+		"timestamp": 1584909606819
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Access-Control-Allow-Headers: Origin,Content-Type,Accept,X-Untappd-App,X-Untappd-App-Version\r\n",
+		"timestamp": 1584909606819
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "\r\n",
+		"timestamp": 1584909606819
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 7.8 KB chunk",
+		"timestamp": 1584909606819
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 11.3 KB chunk",
+		"timestamp": 1584909606856
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 4.7 KB chunk",
+		"timestamp": 1584909606856
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 2.2 KB chunk",
+		"timestamp": 1584909606857
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 5 B chunk",
+		"timestamp": 1584909606858
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection #5 to host api.untappd.com left intact\n",
+		"timestamp": 1584909606858
+	}
+]

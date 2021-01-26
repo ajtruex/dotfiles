@@ -1,0 +1,122 @@
+{
+  "_from": "blockstack-cli@1.1.0-beta.1",
+  "_id": "blockstack-cli@1.1.0-beta.1",
+  "_inBundle": false,
+  "_integrity": "sha512-rt/6UV7ao9w/psmLec7Xva9w2gpyjvRtrICS7pA96gT9JuvWnchSk2KVOZPF/EJDbmpqd/ODXqEbRgCVFPHJug==",
+  "_location": "/blockstack-cli",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "blockstack-cli@1.1.0-beta.1",
+    "name": "blockstack-cli",
+    "escapedName": "blockstack-cli",
+    "rawSpec": "1.1.0-beta.1",
+    "saveSpec": null,
+    "fetchSpec": "1.1.0-beta.1"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/blockstack-cli/-/blockstack-cli-1.1.0-beta.1.tgz",
+  "_shasum": "b12704a9919411379fc1ba79728b303ac7b5203b",
+  "_spec": "blockstack-cli@1.1.0-beta.1",
+  "_where": "/Users/andrewtruex/ux",
+  "author": {
+    "name": "Jude Nelson",
+    "email": "jude@blockstack.com",
+    "url": "https://blockstack.com"
+  },
+  "bin": {
+    "blockstack-cli": "cmd/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/blockstack/cli-blockstack/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Jude Nelson"
+    }
+  ],
+  "dependencies": {
+    "@blockstack/stacks-transactions": "^0.3.0-alpha.5",
+    "@types/bn.js": "^4.11.5",
+    "@types/cors": "^2.8.5",
+    "@types/express": "^4.16.1",
+    "@types/express-winston": "^3.0.1",
+    "@types/node": "^11.13.8",
+    "@types/node-fetch": "^2.5.0",
+    "@types/ripemd160": "^2.0.0",
+    "ajv": "^4.11.5",
+    "bip32": "^2.0.4",
+    "bip39": "^3.0.2",
+    "bitcoinjs-lib": "^5.1.2",
+    "blockstack": "^19.2.2",
+    "c32check": "^0.0.6",
+    "cors": "^2.8.4",
+    "express": "^4.16.0",
+    "express-winston": "^3.1.0",
+    "jsontokens": "^2.0.2",
+    "node-fetch": "^2.6.0",
+    "ripemd160": "^2.0.1",
+    "winston": "^3.2.1",
+    "zone-file": "^0.2.2"
+  },
+  "deprecated": false,
+  "description": "Node.js Blockstack CLI",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
+    "eslint": "^6.1.0",
+    "minimist": ">=1.2.3",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.6.3"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "homepage": "https://blockstack.org",
+  "keywords": [
+    "blockchain",
+    "id",
+    "auth",
+    "authentication",
+    "bitcoin",
+    "blockchain auth",
+    "blockchain authentication",
+    "blockchainid",
+    "blockchain id",
+    "bitcoin auth",
+    "bitcoin authentication",
+    "bitcoin login",
+    "blockchain login",
+    "authorization",
+    "login",
+    "signin",
+    "sso",
+    "crypto",
+    "cryptography",
+    "token",
+    "blockstack",
+    "blockstack auth",
+    "profile",
+    "identity",
+    "ethereum"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "blockstack-cli",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blockstack/cli-blockstack.git"
+  },
+  "scripts": {
+    "build": "tsc -b ./tsconfig.json",
+    "build:watch": "rimraf lib && tsc --watch",
+    "lint": "eslint src --ext .ts -f unix",
+    "prepare": "npm run build",
+    "test": "npm run lint"
+  },
+  "version": "1.1.0-beta.1"
+}

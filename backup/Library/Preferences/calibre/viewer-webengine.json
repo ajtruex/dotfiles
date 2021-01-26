@@ -1,0 +1,77 @@
+{
+  "main_window_geometry": {
+    "__class__": "bytearray",
+    "__value__": "AdnQywADAAAAAAFAAAAAlgAAA+0AAALAAAABQAAAAKwAAAPtAAACwAAAAAAAAAAABQAAAAFAAAAArAAAA+0AAALA"
+  },
+  "main_window_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAEDAAACFfwCAAAAAvsAAAAWAHMAZQBhAHIAYwBoAC0AZABvAGMAawAAAAAA/////wAAALUA////+wAAABAAdABvAGMALQBkAG8AYwBrAQAAAAAAAAIVAAAAmgD///8AAAABAAABqQAAAhX8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAAChAP////sAAAAcAGkAbgBzAHAAZQBjAHQAbwByAC0AZABvAGMAawAAAAAAAAACFQAAABYA////+wAAABwAYgBvAG8AawBtAGEAcgBrAHMALQBkAG8AYwBrAAAAAAD/////AAABFgD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAAPsA////AAABqgAAAhUAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+  },
+  "old_prefs_migrated": true,
+  "session_data": {
+    "controls_help_shown_count": 2,
+    "standalone_font_settings": {},
+    "standalone_misc_settings": {
+      "remember_last_read": true,
+      "remember_window_geometry": false,
+      "save_annotations_in_ebook": true,
+      "singleinstance": false
+    },
+    "standalone_recently_opened": [
+      {
+        "authors": [
+          "Steven Pressfield"
+        ],
+        "key": "/Users/andrewtruex/Calibre Library/Steven Pressfield/The War of Art_ Winning the Inner Creative Battle (22)/The War of Art_ Winning the Inner Creative - Steven Pressfield.azw3",
+        "pathtoebook": "/Users/andrewtruex/Calibre Library/Steven Pressfield/The War of Art_ Winning the Inner Creative Battle (22)/The War of Art_ Winning the Inner Creative - Steven Pressfield.azw3",
+        "timestamp": "2020-10-02T11:54:34.024Z",
+        "title": "The War of Art: Winning the Inner Creative Battle"
+      },
+      {
+        "authors": [
+          "Steven Pressfield"
+        ],
+        "key": "/Users/andrewtruex/Calibre Library/Steven Pressfield/The War of Art_ Winning the Inner Creative Battle (22)/The War of Art_ Winning the Inner Creative - Steven Pressfield.epub",
+        "pathtoebook": "/Users/andrewtruex/Calibre Library/Steven Pressfield/The War of Art_ Winning the Inner Creative Battle (22)/The War of Art_ Winning the Inner Creative - Steven Pressfield.epub",
+        "timestamp": "2020-10-02T11:48:07.747Z",
+        "title": "The War of Art: Winning the Inner Creative Battle"
+      },
+      {
+        "authors": [
+          "Steven Pressfield"
+        ],
+        "key": "/Users/andrewtruex/Calibre Library/Steven Pressfield/The War of Art_ Winning the Inner Creative Battle (21)/The War of Art_ Winning the Inner Creative - Steven Pressfield.epub",
+        "pathtoebook": "/Users/andrewtruex/Calibre Library/Steven Pressfield/The War of Art_ Winning the Inner Creative Battle (21)/The War of Art_ Winning the Inner Creative - Steven Pressfield.epub",
+        "timestamp": "2020-10-02T11:31:38.586Z",
+        "title": "The War of Art: Winning the Inner Creative Battle"
+      },
+      {
+        "authors": [
+          "Steven Pressfield"
+        ],
+        "key": "/Users/andrewtruex/Calibre Library/Steven Pressfield/The War of Art_ Winning the Inner Creative Battle (20)/The War of Art_ Winning the Inner Creative - Steven Pressfield.epub",
+        "pathtoebook": "/Users/andrewtruex/Calibre Library/Steven Pressfield/The War of Art_ Winning the Inner Creative Battle (20)/The War of Art_ Winning the Inner Creative - Steven Pressfield.epub",
+        "timestamp": "2020-10-02T11:00:18.867Z",
+        "title": "The War of Art: Winning the Inner Creative Battle"
+      },
+      {
+        "authors": [
+          "Eric Jorgenson"
+        ],
+        "key": "/Users/andrewtruex/Calibre Library/Eric Jorgenson/The Almanack of Naval Ravikant_ A Guide to Wealth and Happiness (10)/The Almanack of Naval Ravikant_ A Guide to - Eric Jorgenson.azw3",
+        "pathtoebook": "/Users/andrewtruex/Calibre Library/Eric Jorgenson/The Almanack of Naval Ravikant_ A Guide to Wealth and Happiness (10)/The Almanack of Naval Ravikant_ A Guide to - Eric Jorgenson.azw3",
+        "timestamp": "2020-10-02T09:50:07.670Z",
+        "title": "The Almanack of Naval Ravikant: A Guide to Wealth and Happiness"
+      },
+      {
+        "authors": [
+          "Blake Snyder"
+        ],
+        "key": "/Users/andrewtruex/Calibre Library/Blake Snyder/Save the Cat!_ The Last Book on Screenwriting You'll Ever Need (7)/Save the Cat!_ The Last Book on Screenwrit - Blake Snyder.epub",
+        "pathtoebook": "/Users/andrewtruex/Calibre Library/Blake Snyder/Save the Cat!_ The Last Book on Screenwriting You'll Ever Need (7)/Save the Cat!_ The Last Book on Screenwrit - Blake Snyder.epub",
+        "timestamp": "2020-02-23T14:36:09.273Z",
+        "title": "Save the Cat!: The Last Book on Screenwriting You'll Ever Need"
+      }
+    ]
+  }
+}

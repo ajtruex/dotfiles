@@ -1,0 +1,179 @@
+{
+  "editor.snippetSuggestions": "inline",
+  "editor.minimap.enabled": false,
+  "workbench.colorCustomizations": {
+    "editor.background": "#1B2B34",
+    "scrollbarSlider.background": "#4D1E0F",
+    "scrollbarSlider.activeBackground": "#E74C3C",
+    "scrollbarSlider.hoverBackground": "#E74C3C",
+    "editor.selectionBackground": "#4F5B66",
+    "editorGroupHeader.tabsBorder": "#E74C3C",
+    "editorCursor.background": "#000000",
+    "editorCursor.foreground": "#ffffff"
+  },
+  "window.closeWhenEmpty": true,
+  "editor.dragAndDrop": true,
+  "editor.tabCompletion": "on",
+  "window.openFilesInNewWindow": "off",
+  "window.title": "${activeEditorFull}${separator}${rootName}",
+  "files.trimTrailingWhitespace": true,
+  "window.zoomLevel": 0,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.port": 8080,
+  "workbench.sideBar.location": "left",
+  "nativescript.analytics.enabled": false,
+  // "eslint.validate": [
+  //   {
+  //     "language": "vue",
+  //     "autoFix": true
+  //   },
+  //   {
+  //     "language": "vue-html",
+  //     "autoFix": true
+  //   },
+  //   {
+  //     "language": "html",
+  //     "autoFix": true
+  //   },
+  //   {
+  //     "language": "javascript",
+  //     "autoFix": true
+  //   },
+  //   {
+  //     "language": "javascriptreact",
+  //     "autoFix": true
+  //   }
+  // ],
+  "vetur.format.defaultFormatter.postcss": "prettier",
+  "vetur.format.defaultFormatter.scss": "prettier",
+  "vetur.format.defaultFormatter.less": "prettier",
+  "vetur.format.defaultFormatter.stylus": "stylus-supremacy",
+  "vetur.validation.style": true,
+  "gitlens.defaultDateFormat": "dddd, MMMM Do YYYY, h:mm:ss a",
+  "gitlens.settings.mode": "advanced",
+  "gitlens.defaultDateStyle": "absolute",
+  "gitlens.menus": {
+    "editor": {
+      "blame": false,
+      "clipboard": true,
+      "compare": true,
+      "details": true,
+      "history": false,
+      "remote": true
+    },
+    "editorTab": {
+      "compare": false,
+      "history": false,
+      "remote": true
+    },
+    "explorer": {
+      "compare": true,
+      "history": true,
+      "remote": true
+    }
+  },
+  "gitlens.codeLens.enabled": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "path-intellisense.showHiddenFiles": true,
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "files.associations": {
+    "receipt": "hex",
+    "*.json": "json",
+    ".vuerc": "json",
+    "*.rmd": "markdown",
+    "*.html": "html",
+    "*.svelte": "html"
+  },
+  "[makefile]": {
+    "editor.insertSpaces": true
+  },
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "markdown.preview.openMarkdownLinks": "inEditor",
+  "vetur.format.defaultFormatterOptions": {
+    "prettier": {
+      "semi": false
+    }
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "vue": "html"
+  },
+  "gitlens.views.repositories.files.layout": "auto",
+  "gitlens.views.fileHistory.enabled": true,
+  "gitlens.views.fileHistory.location": "scm",
+  "gitlens.views.lineHistory.enabled": true,
+  "gitlens.views.lineHistory.location": "scm",
+  "gitlens.views.compare.location": "scm",
+  "gitlens.views.search.location": "scm",
+  "[plaintext]": {},
+  "todohighlight.isEnable": true,
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "sync.gist": "",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "python.pythonPath": "/usr/local/bin/python3",
+  "python.formatting.autopep8Path": "autopep8",
+  "python.linting.enabled": true,
+  "eslint.alwaysShowStatus": true,
+  "editor.maxTokenizationLineLength": 100000,
+  "workbench.settings.editor": "json",
+  "readTime.enabled": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "telemetry.enableTelemetry": false,
+  "editor.largeFileOptimizations": false,
+  "editor.cursorStyle": "block",
+  "updateChannel": "insiders",
+  "editor.wordWrap": "on",
+  "editor.renderWhitespace": "none",
+  "workbench.colorTheme": "TruBoo",
+  "editor.fontSize": 13,
+  "workbench.iconTheme": "vscode-icons",
+  "vetur.experimental.templateInterpolationService": true,
+  "html.format.enable": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "howIVSCode.userIdentificationKey": " 0a415f25a8cb614ba9adc09e01a88a",
+  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "vetur.validation.template": false,
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": false,
+  "editor.formatOnSave": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.tabSize": 2,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "codespaces.accountProvider": "GitHub",
+  "codespaces.defaultExtensions": [
+    "ms-vsonline.vsonline",
+    "GitHub.vscode-pull-request-github",
+    "ms-vsliveshare.vsliveshare",
+    "visualstudioexptteam.vscodeintellicode"
+  ],
+  "aws.profile": "profile:default",
+  "vetur.validation.interpolation": false,
+  "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.macOptionClickForcesSelection": true,
+  "terminal.integrated.macOptionIsMeta": true,
+  "terminal.integrated.windowsEnableConpty": false
+}

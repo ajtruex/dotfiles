@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<prefs>
+    <property key="ccd.onboarding.assets.statusLight">0</property>
+    <property key="ccd.onboarding.assets.cloud.version">1</property>
+    <property key="ccd.onboarding.assets.version">1</property>
+    <property key="ccd.onboarding.assets.lib.steps">librariesAddButton</property>
+    <property key="ccd.onboarding.assets.cloud.steps">cloudDocsMain,cloudDocsRightRail,cloudDocsSideNav,cloudSharedDeletedFiles</property>
+    <property key="ccd.onboarding.assets.steps">yourWorkMain1</property>
+    <property key="ccd.onboarding.assets.cloud.statusLight">1</property>
+    <property key="ccd.onboarding.assets.lib.version">1</property>
+    <property key="ccd.onboarding.assets.lib.statusLight">0</property>
+    <property key="ccd.fontmanagementpanel.synced.steps">font-management.manage,font-management.previously-activated,font-management.preview,font-management.browse,font-management.byof,font-management.byof</property>
+    <property key="ccd.fontmanagementpanel.synced.statusLight">0</property>
+    <property key="ccd.fontmanagementpanel.synced.version">1</property>
+    <property key="ccd.fontmanagementpanel.welcome.statusLight">1</property>
+    <property key="ccd.fontmanagementpanel.welcome.steps">0</property>
+    <property key="ccd.fontmanagementpanel.welcome.version">1</property>
+    <property key="rootOnboardingWhatsNew.steps">main.whatsNew.dialog,main.newWays.dialog,main.plugins.dialog,main.fonts.dialog,main.liveStream.dialog</property>
+    <property key="rootOnboardingWhatsNew.statusLight">0</property>
+    <property key="rootOnboardingWhatsNew.version">1</property>
+</prefs>

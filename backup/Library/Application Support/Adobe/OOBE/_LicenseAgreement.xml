@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LicenseAgreementAcceptanceStatus>
+    <LicenseAgreementAcceptanceRecords>
+        <LicenseAgreementAcceptanceRecord>
+            <Type>1</Type>
+            <AcceptedBy Type="GUID">7D624B875BA077DE0A495D50@iu.edu</AcceptedBy>
+            <Version>1000</Version>
+            <Locale>en_US</Locale>
+            <TimeStamp>1593490283</TimeStamp>
+            <Phase>0</Phase>
+        </LicenseAgreementAcceptanceRecord>
+    </LicenseAgreementAcceptanceRecords>
+</LicenseAgreementAcceptanceStatus>

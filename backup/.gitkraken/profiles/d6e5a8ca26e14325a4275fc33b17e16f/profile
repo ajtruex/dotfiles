@@ -1,0 +1,51 @@
+{
+  "editor": {
+    "fontFamily": "Monaco",
+    "syntaxHighlighting": true
+  },
+  "profileIcon": "gravatar",
+  "profileName": "ajtruex",
+  "userEmail": "andrewtruex@gmail.com",
+  "userName": "Andrew Truex",
+  "tabInfo": {
+    "tabs": [
+      {
+        "id": "5a8199e5-90fa-474c-80ca-d274ac7189cb",
+        "type": "PLUGIN",
+        "pluginId": "glo",
+        "mountKey": "GloAppFullView"
+      },
+      {
+        "id": "baafe891-1ef1-41a5-9927-422c4796f836",
+        "type": "REPO",
+        "repoName": "Intro-to-Vue-3",
+        "repoPath": "/Users/andrewtruex/Intro-to-Vue-3/"
+      },
+      {
+        "id": "b8455261-d1e5-421c-a05d-99d9fe87463f",
+        "type": "RELEASE_NOTES"
+      }
+    ],
+    "selectedTabId": "b8455261-d1e5-421c-a05d-99d9fe87463f"
+  },
+  "ui": {
+    "useAuthorInitialsForAvatars": false
+  },
+  "defaultTerminal": "iTerm2",
+  "diffTool": "git-config",
+  "layout": {
+    "RefPanel": {
+      "open": true
+    },
+    "DetailPanel": {
+      "width": 400
+    }
+  },
+  "fileView": {
+    "diffDisplayMode": "hunk"
+  },
+  "fileNodeList": {
+    "viewMode": "full_path"
+  },
+  "externalEditor": "Visual Studio Code"
+}

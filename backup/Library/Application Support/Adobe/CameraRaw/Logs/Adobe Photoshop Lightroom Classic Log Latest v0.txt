@@ -1,0 +1,8 @@
+*** GPU Warning: GPU model is deny-listed for GPU3. ***
+*** Error: PreloadModelsCoreML failed ***
+Special HDR mosaic case: converting stage 3 image to fp32
+Special HDR mosaic case: converting stage 3 image to fp32
+Special HDR mosaic case: converting stage 3 image to fp32
+Special HDR mosaic case: converting stage 3 image to fp32
+Special HDR mosaic case: converting stage 3 image to fp32
+Special HDR mosaic case: converting stage 3 image to fp32

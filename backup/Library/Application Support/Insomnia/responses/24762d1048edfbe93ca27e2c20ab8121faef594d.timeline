@@ -1,0 +1,142 @@
+[
+	{
+		"name": "TEXT",
+		"value": "Preparing request to https://untappd.com/oauth/authenticate/?client_id=0A0974D4A29D8FA088433A6A3797E99D11F893A1&response_type=code&redirect_url=andrewtruex.software",
+		"timestamp": 1584908669214
+	},
+	{
+		"name": "TEXT",
+		"value": "Using libcurl/7.67.0 SecureTransport zlib/1.2.11",
+		"timestamp": 1584908669214
+	},
+	{
+		"name": "TEXT",
+		"value": "Current time is 2020-03-22T20:24:29.214Z",
+		"timestamp": 1584908669214
+	},
+	{
+		"name": "TEXT",
+		"value": "Disable timeout",
+		"timestamp": 1584908669214
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable automatic URL encoding",
+		"timestamp": 1584908669214
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable SSL validation",
+		"timestamp": 1584908669214
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable cookie sending with jar of 11 cookies",
+		"timestamp": 1584908669215
+	},
+	{
+		"name": "TEXT",
+		"value": "Found bundle for host untappd.com: 0x7fce143ea880 [serially]\n",
+		"timestamp": 1584908669219
+	},
+	{
+		"name": "TEXT",
+		"value": "Re-using existing connection! (#1) with host untappd.com\n",
+		"timestamp": 1584908669219
+	},
+	{
+		"name": "TEXT",
+		"value": "Connected to untappd.com (104.26.13.22) port 443 (#1)\n",
+		"timestamp": 1584908669219
+	},
+	{
+		"name": "HEADER_OUT",
+		"value": "POST /oauth/authenticate/?client_id=0A0974D4A29D8FA088433A6A3797E99D11F893A1&response_type=code&redirect_url=andrewtruex.software HTTP/1.1\r\nHost: untappd.com\r\nUser-Agent: insomnia/7.1.1\r\nCookie: __cfduid=d66f6de801ad3ec9e427f13c715a520021584907196; ut_anon=7eb43bb4-b724-40dc-8d43-e4ad7d573599\r\nContent-Type: application/x-www-form-urlencoded\r\nAccept: application/x-www-form-urlencoded, application/json\r\nAuthorization: Basic MEEwOTc0RDRBMjlEOEZBMDg4NDMzQTZBMzc5N0U5OUQxMUY4OTNBMTo4NzhFMDBEMjNDOEVFNkVGRjI1ODhCNkVDRjE3ODdDRkM4M0FGMjhC\r\nContent-Length: 123\r\n\r\n",
+		"timestamp": 1584908669220
+	},
+	{
+		"name": "DATA_OUT",
+		"value": "grant_type=authorization_code&code=D7EE97BE11E66EFFE3DB7C86174CE64E87494BAC&redirect_uri=andrewtruex.software&resource=code",
+		"timestamp": 1584908669220
+	},
+	{
+		"name": "TEXT",
+		"value": "upload completely sent off: 123 out of 123 bytes\n",
+		"timestamp": 1584908669220
+	},
+	{
+		"name": "TEXT",
+		"value": "Mark bundle as not supporting multiuse\n",
+		"timestamp": 1584908669514
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "HTTP/1.1 200 OK\r\n",
+		"timestamp": 1584908669514
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Date: Sun, 22 Mar 2020 20:24:29 GMT\r\n",
+		"timestamp": 1584908669514
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Content-Type: text/html; charset=UTF-8\r\n",
+		"timestamp": 1584908669514
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Transfer-Encoding: chunked\r\n",
+		"timestamp": 1584908669514
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Connection: keep-alive\r\n",
+		"timestamp": 1584908669514
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "CF-Cache-Status: DYNAMIC\r\n",
+		"timestamp": 1584908669515
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Expect-CT: max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"\r\n",
+		"timestamp": 1584908669515
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Server: cloudflare\r\n",
+		"timestamp": 1584908669515
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "CF-RAY: 5782a2ef69d0556e-ORD\r\n",
+		"timestamp": 1584908669515
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "\r\n",
+		"timestamp": 1584908669515
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 3.8 KB chunk",
+		"timestamp": 1584908669515
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1576 B chunk",
+		"timestamp": 1584908669515
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 5 B chunk",
+		"timestamp": 1584908669515
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection #1 to host untappd.com left intact\n",
+		"timestamp": 1584908669515
+	}
+]

@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../src/commands/eas-build/constants.ts"],"names":["platformDisplayNames","ios","android"],"mappings":";;;;;;AAAO,MAAMA,oBAAoB,GAAG;AAClCC,EAAAA,GAAG,EAAE,KAD6B;AAElCC,EAAAA,OAAO,EAAE;AAFyB,CAA7B","sourcesContent":["export const platformDisplayNames = {\n  ios: 'iOS',\n  android: 'Android',\n};\n"],"file":"constants.js"}

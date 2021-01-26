@@ -1,0 +1,987 @@
+[
+	{
+		"name": "TEXT",
+		"value": "Preparing request to https://api.instagram.com/oauth/authorize?client_id=826379798138855&redirect_uri=https%3A%2F%2Fhttpstat.us%2F200&scope=user_profile,user_media&response_type=code",
+		"timestamp": 1605566303551
+	},
+	{
+		"name": "TEXT",
+		"value": "Current time is 2020-11-16T22:38:23.551Z",
+		"timestamp": 1605566303552
+	},
+	{
+		"name": "TEXT",
+		"value": "Using libcurl/7.69.1 OpenSSL/1.1.1g zlib/1.2.11 brotli/1.0.7 libidn2/2.1.1 libssh2/1.9.0 nghttp2/1.41.0",
+		"timestamp": 1605566303552
+	},
+	{
+		"name": "TEXT",
+		"value": "Using default HTTP version",
+		"timestamp": 1605566303552
+	},
+	{
+		"name": "TEXT",
+		"value": "Disable timeout",
+		"timestamp": 1605566303552
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable automatic URL encoding",
+		"timestamp": 1605566303552
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable SSL validation",
+		"timestamp": 1605566303552
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable cookie sending with jar of 0 cookies",
+		"timestamp": 1605566303552
+	},
+	{
+		"name": "TEXT",
+		"value": "  Trying 157.240.18.63:443...\n",
+		"timestamp": 1605566303589
+	},
+	{
+		"name": "TEXT",
+		"value": "Connected to api.instagram.com (157.240.18.63) port 443 (#0)\n",
+		"timestamp": 1605566303617
+	},
+	{
+		"name": "TEXT",
+		"value": "ALPN, offering h2\n",
+		"timestamp": 1605566303630
+	},
+	{
+		"name": "TEXT",
+		"value": "ALPN, offering http/1.1\n",
+		"timestamp": 1605566303630
+	},
+	{
+		"name": "TEXT",
+		"value": "successfully set certificate verify locations:\n",
+		"timestamp": 1605566303664
+	},
+	{
+		"name": "TEXT",
+		"value": "  CAfile: /etc/ssl/cert.pem\n  CApath: none\n",
+		"timestamp": 1605566303664
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (OUT), TLS handshake, Client hello (1):\n",
+		"timestamp": 1605566303671
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (IN), TLS handshake, Server hello (2):\n",
+		"timestamp": 1605566303714
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):\n",
+		"timestamp": 1605566303716
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (IN), TLS handshake, Certificate (11):\n",
+		"timestamp": 1605566303717
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (IN), TLS handshake, CERT verify (15):\n",
+		"timestamp": 1605566303722
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (IN), TLS handshake, Finished (20):\n",
+		"timestamp": 1605566303723
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):\n",
+		"timestamp": 1605566303723
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (OUT), TLS handshake, Finished (20):\n",
+		"timestamp": 1605566303723
+	},
+	{
+		"name": "TEXT",
+		"value": "SSL connection using TLSv1.3 / TLS_CHACHA20_POLY1305_SHA256\n",
+		"timestamp": 1605566303723
+	},
+	{
+		"name": "TEXT",
+		"value": "ALPN, server accepted to use h2\n",
+		"timestamp": 1605566303723
+	},
+	{
+		"name": "TEXT",
+		"value": "Server certificate:\n",
+		"timestamp": 1605566303723
+	},
+	{
+		"name": "TEXT",
+		"value": " subject: C=US; ST=California; L=Menlo Park; O=Facebook, Inc.; CN=*.instagram.com\n",
+		"timestamp": 1605566303724
+	},
+	{
+		"name": "TEXT",
+		"value": " start date: Oct 22 00:00:00 2020 GMT\n",
+		"timestamp": 1605566303724
+	},
+	{
+		"name": "TEXT",
+		"value": " expire date: Jan 19 23:59:59 2021 GMT\n",
+		"timestamp": 1605566303724
+	},
+	{
+		"name": "TEXT",
+		"value": " subjectAltName: host \"api.instagram.com\" matched cert's \"*.instagram.com\"\n",
+		"timestamp": 1605566303724
+	},
+	{
+		"name": "TEXT",
+		"value": " issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=DigiCert SHA2 High Assurance Server CA\n",
+		"timestamp": 1605566303724
+	},
+	{
+		"name": "TEXT",
+		"value": " SSL certificate verify ok.\n",
+		"timestamp": 1605566303724
+	},
+	{
+		"name": "TEXT",
+		"value": "Using HTTP2, server supports multi-use\n",
+		"timestamp": 1605566303725
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection state changed (HTTP/2 confirmed)\n",
+		"timestamp": 1605566303725
+	},
+	{
+		"name": "TEXT",
+		"value": "Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0\n",
+		"timestamp": 1605566303725
+	},
+	{
+		"name": "TEXT",
+		"value": "Using Stream ID: 1 (easy handle 0x7fd6c6245e00)\n",
+		"timestamp": 1605566303726
+	},
+	{
+		"name": "HEADER_OUT",
+		"value": "GET /oauth/authorize?client_id=826379798138855&redirect_uri=https%3A%2F%2Fhttpstat.us%2F200&scope=user_profile,user_media&response_type=code HTTP/2\r\nHost: api.instagram.com\r\nuser-agent: insomnia/2020.4.0\r\nx-api-key: Ni9tok2QGz9xOSKsfBp6q87dnjS8zVmo5t45SGsp\r\naccept: */*\r\n\r\n",
+		"timestamp": 1605566303726
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):\n",
+		"timestamp": 1605566303748
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection state changed (MAX_CONCURRENT_STREAMS == 100)!\n",
+		"timestamp": 1605566303749
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "HTTP/2 302 \r\n",
+		"timestamp": 1605566303826
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "content-type: text/html; charset=utf-8\r\n",
+		"timestamp": 1605566303826
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "location: https://www.instagram.com/oauth/authorize?client_id=826379798138855&redirect_uri=https://httpstat.us/200&scope=user_profile,user_media&response_type=code\r\n",
+		"timestamp": 1605566303826
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "vary: Accept-Language\r\n",
+		"timestamp": 1605566303826
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "date: Mon, 16 Nov 2020 22:38:23 GMT\r\n",
+		"timestamp": 1605566303826
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "strict-transport-security: max-age=31536000\r\n",
+		"timestamp": 1605566303826
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "cache-control: private, no-cache, no-store, must-revalidate\r\n",
+		"timestamp": 1605566303826
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "pragma: no-cache\r\n",
+		"timestamp": 1605566303826
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "expires: Sat, 01 Jan 2000 00:00:00 GMT\r\n",
+		"timestamp": 1605566303826
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "x-frame-options: SAMEORIGIN\r\n",
+		"timestamp": 1605566303826
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "content-security-policy: report-uri https://www.instagram.com/security/csp_report/; default-src 'self' https://www.instagram.com; img-src data: blob: https://*.fbcdn.net https://*.instagram.com https://*.cdninstagram.com https://*.facebook.com https://*.giphy.com; font-src data: https://*.fbcdn.net https://*.instagram.com https://*.cdninstagram.com; media-src 'self' blob: https://www.instagram.com https://*.cdninstagram.com https://*.fbcdn.net; manifest-src 'self' https://www.instagram.com; script-src 'self' https://instagram.com https://www.instagram.com https://*.www.instagram.com https://*.cdninstagram.com wss://www.instagram.com https://*.facebook.com https://*.fbcdn.net https://*.facebook.net 'unsafe-inline' 'unsafe-eval' blob:; style-src 'self' https://*.www.instagram.com https://www.instagram.com 'unsafe-inline'; connect-src 'self' https://instagram.com https://www.instagram.com https://*.www.instagram.com https://graph.instagram.com https://*.graph.instagram.com https://*.cdninstagram.com https://api.instagram.com https://i.instagram.com wss://www.instagram.com wss://edge-chat.instagram.com https://*.facebook.com https://*.fbcdn.net https://*.facebook.net chrome-extension://boadgeojelhgndaghljhdicfkmllpafd blob:; worker-src 'self' blob: https://www.instagram.com; frame-src 'self' https://instagram.com https://www.instagram.com https://staticxx.facebook.com https://www.facebook.com https://web.facebook.com https://connect.facebook.net https://m.facebook.com; object-src 'none'; upgrade-insecure-requests\r\n",
+		"timestamp": 1605566303826
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "x-content-type-options: nosniff\r\n",
+		"timestamp": 1605566303826
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "x-xss-protection: 0\r\n",
+		"timestamp": 1605566303826
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "x-aed: 30\r\n",
+		"timestamp": 1605566303826
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "access-control-expose-headers: X-IG-Set-WWW-Claim\r\n",
+		"timestamp": 1605566303826
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "set-cookie: ig_did=A70F5C9A-FB6C-42D1-9EAC-F198E51354B3; Domain=.instagram.com; expires=Wed, 16-Nov-2022 22:38:23 GMT; HttpOnly; Max-Age=63072000; Path=/; Secure\r\n",
+		"timestamp": 1605566303826
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "set-cookie: ig_nrcb=1; Domain=.instagram.com; expires=Tue, 16-Nov-2021 22:38:23 GMT; Max-Age=31536000; Path=/; Secure\r\n",
+		"timestamp": 1605566303826
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "content-length: 0\r\n",
+		"timestamp": 1605566303826
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "x-fb-trip-id: 19638678\r\n",
+		"timestamp": 1605566303826
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "alt-svc: h3-29=\":443\"; ma=3600,h3-27=\":443\"; ma=3600\r\n",
+		"timestamp": 1605566303826
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "\r\n",
+		"timestamp": 1605566303826
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 0 B chunk",
+		"timestamp": 1605566303826
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection #0 to host api.instagram.com left intact\n",
+		"timestamp": 1605566303826
+	},
+	{
+		"name": "TEXT",
+		"value": "Issue another request to this URL: 'https://www.instagram.com/oauth/authorize?client_id=826379798138855&redirect_uri=https://httpstat.us/200&scope=user_profile,user_media&response_type=code'\n",
+		"timestamp": 1605566303826
+	},
+	{
+		"name": "TEXT",
+		"value": "  Trying 157.240.2.174:443...\n",
+		"timestamp": 1605566303932
+	},
+	{
+		"name": "TEXT",
+		"value": "Connected to www.instagram.com (157.240.2.174) port 443 (#1)\n",
+		"timestamp": 1605566303958
+	},
+	{
+		"name": "TEXT",
+		"value": "ALPN, offering h2\n",
+		"timestamp": 1605566303958
+	},
+	{
+		"name": "TEXT",
+		"value": "ALPN, offering http/1.1\n",
+		"timestamp": 1605566303958
+	},
+	{
+		"name": "TEXT",
+		"value": "successfully set certificate verify locations:\n",
+		"timestamp": 1605566303976
+	},
+	{
+		"name": "TEXT",
+		"value": "  CAfile: /etc/ssl/cert.pem\n  CApath: none\n",
+		"timestamp": 1605566303976
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (OUT), TLS handshake, Client hello (1):\n",
+		"timestamp": 1605566303976
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (IN), TLS handshake, Server hello (2):\n",
+		"timestamp": 1605566304009
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):\n",
+		"timestamp": 1605566304009
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (IN), TLS handshake, Certificate (11):\n",
+		"timestamp": 1605566304009
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (IN), TLS handshake, CERT verify (15):\n",
+		"timestamp": 1605566304010
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (IN), TLS handshake, Finished (20):\n",
+		"timestamp": 1605566304010
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):\n",
+		"timestamp": 1605566304010
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (OUT), TLS handshake, Finished (20):\n",
+		"timestamp": 1605566304010
+	},
+	{
+		"name": "TEXT",
+		"value": "SSL connection using TLSv1.3 / TLS_CHACHA20_POLY1305_SHA256\n",
+		"timestamp": 1605566304010
+	},
+	{
+		"name": "TEXT",
+		"value": "ALPN, server accepted to use h2\n",
+		"timestamp": 1605566304010
+	},
+	{
+		"name": "TEXT",
+		"value": "Server certificate:\n",
+		"timestamp": 1605566304010
+	},
+	{
+		"name": "TEXT",
+		"value": " subject: C=US; ST=California; L=Menlo Park; O=Facebook, Inc.; CN=*.www.instagram.com\n",
+		"timestamp": 1605566304010
+	},
+	{
+		"name": "TEXT",
+		"value": " start date: Oct 10 00:00:00 2020 GMT\n",
+		"timestamp": 1605566304010
+	},
+	{
+		"name": "TEXT",
+		"value": " expire date: Jan  8 12:00:00 2021 GMT\n",
+		"timestamp": 1605566304010
+	},
+	{
+		"name": "TEXT",
+		"value": " subjectAltName: host \"www.instagram.com\" matched cert's \"www.instagram.com\"\n",
+		"timestamp": 1605566304010
+	},
+	{
+		"name": "TEXT",
+		"value": " issuer: C=US; O=DigiCert Inc; OU=www.digicert.com; CN=DigiCert SHA2 High Assurance Server CA\n",
+		"timestamp": 1605566304010
+	},
+	{
+		"name": "TEXT",
+		"value": " SSL certificate verify ok.\n",
+		"timestamp": 1605566304010
+	},
+	{
+		"name": "TEXT",
+		"value": "Using HTTP2, server supports multi-use\n",
+		"timestamp": 1605566304010
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection state changed (HTTP/2 confirmed)\n",
+		"timestamp": 1605566304010
+	},
+	{
+		"name": "TEXT",
+		"value": "Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0\n",
+		"timestamp": 1605566304010
+	},
+	{
+		"name": "TEXT",
+		"value": "Using Stream ID: 1 (easy handle 0x7fd6c6245e00)\n",
+		"timestamp": 1605566304010
+	},
+	{
+		"name": "HEADER_OUT",
+		"value": "GET /oauth/authorize?client_id=826379798138855&redirect_uri=https://httpstat.us/200&scope=user_profile,user_media&response_type=code HTTP/2\r\nHost: www.instagram.com\r\nuser-agent: insomnia/2020.4.0\r\ncookie: ig_nrcb=1; ig_did=A70F5C9A-FB6C-42D1-9EAC-F198E51354B3\r\nx-api-key: Ni9tok2QGz9xOSKsfBp6q87dnjS8zVmo5t45SGsp\r\naccept: */*\r\n\r\n",
+		"timestamp": 1605566304010
+	},
+	{
+		"name": "TEXT",
+		"value": "TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):\n",
+		"timestamp": 1605566304036
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection state changed (MAX_CONCURRENT_STREAMS == 100)!\n",
+		"timestamp": 1605566304036
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "HTTP/2 302 \r\n",
+		"timestamp": 1605566304166
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "content-type: text/html; charset=utf-8\r\n",
+		"timestamp": 1605566304166
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "location: https://www.instagram.com/accounts/login/?force_authentication=1&enable_fb_login=1&next=/oauth/authorize%3Fclient_id%3D826379798138855%26redirect_uri%3Dhttps%3A//httpstat.us/200%26scope%3Duser_profile%2Cuser_media%26response_type%3Dcode\r\n",
+		"timestamp": 1605566304166
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "vary: Accept-Language, Cookie\r\n",
+		"timestamp": 1605566304167
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "content-language: en\r\n",
+		"timestamp": 1605566304167
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "date: Mon, 16 Nov 2020 22:38:24 GMT\r\n",
+		"timestamp": 1605566304167
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "strict-transport-security: max-age=31536000\r\n",
+		"timestamp": 1605566304167
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "cache-control: private, no-cache, no-store, must-revalidate\r\n",
+		"timestamp": 1605566304167
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "pragma: no-cache\r\n",
+		"timestamp": 1605566304167
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "expires: Sat, 01 Jan 2000 00:00:00 GMT\r\n",
+		"timestamp": 1605566304167
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "x-frame-options: SAMEORIGIN\r\n",
+		"timestamp": 1605566304167
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "content-security-policy: report-uri https://www.instagram.com/security/csp_report/; default-src 'self' https://www.instagram.com; img-src data: blob: https://*.fbcdn.net https://*.instagram.com https://*.cdninstagram.com https://*.facebook.com https://*.giphy.com; font-src data: https://*.fbcdn.net https://*.instagram.com https://*.cdninstagram.com; media-src 'self' blob: https://www.instagram.com https://*.cdninstagram.com https://*.fbcdn.net; manifest-src 'self' https://www.instagram.com; script-src 'self' https://instagram.com https://www.instagram.com https://*.www.instagram.com https://*.cdninstagram.com wss://www.instagram.com https://*.facebook.com https://*.fbcdn.net https://*.facebook.net 'unsafe-inline' 'unsafe-eval' blob:; style-src 'self' https://*.www.instagram.com https://www.instagram.com 'unsafe-inline'; connect-src 'self' https://instagram.com https://www.instagram.com https://*.www.instagram.com https://graph.instagram.com https://*.graph.instagram.com https://*.cdninstagram.com https://api.instagram.com https://i.instagram.com wss://www.instagram.com wss://edge-chat.instagram.com https://*.facebook.com https://*.fbcdn.net https://*.facebook.net chrome-extension://boadgeojelhgndaghljhdicfkmllpafd blob:; worker-src 'self' blob: https://www.instagram.com; frame-src 'self' https://instagram.com https://www.instagram.com https://staticxx.facebook.com https://www.facebook.com https://web.facebook.com https://connect.facebook.net https://m.facebook.com; object-src 'none'; upgrade-insecure-requests\r\n",
+		"timestamp": 1605566304167
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "x-content-type-options: nosniff\r\n",
+		"timestamp": 1605566304167
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "x-xss-protection: 0\r\n",
+		"timestamp": 1605566304167
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "x-aed: 30\r\n",
+		"timestamp": 1605566304167
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "access-control-expose-headers: X-IG-Set-WWW-Claim\r\n",
+		"timestamp": 1605566304168
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "set-cookie: sessionid=\"\"; Domain=instagram.com; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/\r\n",
+		"timestamp": 1605566304168
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "set-cookie: sessionid=\"\"; Domain=.instagram.com; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/\r\n",
+		"timestamp": 1605566304169
+	},
+	{
+		"name": "TEXT",
+		"value": "skipped cookie with bad tailmatch domain: i.instagram.com\n",
+		"timestamp": 1605566304169
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "set-cookie: sessionid=\"\"; Domain=i.instagram.com; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/\r\n",
+		"timestamp": 1605566304169
+	},
+	{
+		"name": "TEXT",
+		"value": "skipped cookie with bad tailmatch domain: i.instagram.com\n",
+		"timestamp": 1605566304169
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "set-cookie: sessionid=\"\"; Domain=.i.instagram.com; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/\r\n",
+		"timestamp": 1605566304169
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "set-cookie: sessionid=\"\"; Domain=www.instagram.com; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/\r\n",
+		"timestamp": 1605566304169
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "set-cookie: sessionid=\"\"; Domain=.www.instagram.com; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/\r\n",
+		"timestamp": 1605566304169
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "set-cookie: sessionid=\"\"; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/\r\n",
+		"timestamp": 1605566304169
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "set-cookie: csrftoken=VtNv6c2TrhMiVoCWfSavZKN25VZPGitq; Domain=.instagram.com; expires=Mon, 15-Nov-2021 22:38:24 GMT; Max-Age=31449600; Path=/; Secure\r\n",
+		"timestamp": 1605566304169
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "set-cookie: mid=X7L_YAAEAAHnJ381OYUFbnCtQb16; Domain=.instagram.com; expires=Wed, 16-Nov-2022 22:38:24 GMT; Max-Age=63072000; Path=/; Secure\r\n",
+		"timestamp": 1605566304169
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "content-length: 0\r\n",
+		"timestamp": 1605566304169
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "x-fb-trip-id: 1679558926\r\n",
+		"timestamp": 1605566304169
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "alt-svc: h3-29=\":443\"; ma=3600,h3-27=\":443\"; ma=3600\r\n",
+		"timestamp": 1605566304169
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "\r\n",
+		"timestamp": 1605566304169
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 0 B chunk",
+		"timestamp": 1605566304169
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection #1 to host www.instagram.com left intact\n",
+		"timestamp": 1605566304169
+	},
+	{
+		"name": "TEXT",
+		"value": "Issue another request to this URL: 'https://www.instagram.com/accounts/login/?force_authentication=1&enable_fb_login=1&next=/oauth/authorize%3Fclient_id%3D826379798138855%26redirect_uri%3Dhttps%3A//httpstat.us/200%26scope%3Duser_profile%2Cuser_media%26response_type%3Dcode'\n",
+		"timestamp": 1605566304169
+	},
+	{
+		"name": "TEXT",
+		"value": "Found bundle for host www.instagram.com: 0x7fd6c50af7f0 [can multiplex]\n",
+		"timestamp": 1605566304170
+	},
+	{
+		"name": "TEXT",
+		"value": "Re-using existing connection! (#1) with host www.instagram.com\n",
+		"timestamp": 1605566304170
+	},
+	{
+		"name": "TEXT",
+		"value": "Connected to www.instagram.com (157.240.2.174) port 443 (#1)\n",
+		"timestamp": 1605566304170
+	},
+	{
+		"name": "TEXT",
+		"value": "Using Stream ID: 3 (easy handle 0x7fd6c6245e00)\n",
+		"timestamp": 1605566304170
+	},
+	{
+		"name": "HEADER_OUT",
+		"value": "GET /accounts/login/?force_authentication=1&enable_fb_login=1&next=/oauth/authorize%3Fclient_id%3D826379798138855%26redirect_uri%3Dhttps%3A//httpstat.us/200%26scope%3Duser_profile%2Cuser_media%26response_type%3Dcode HTTP/2\r\nHost: www.instagram.com\r\nuser-agent: insomnia/2020.4.0\r\ncookie: csrftoken=VtNv6c2TrhMiVoCWfSavZKN25VZPGitq; ig_nrcb=1; ig_did=A70F5C9A-FB6C-42D1-9EAC-F198E51354B3; mid=X7L_YAAEAAHnJ381OYUFbnCtQb16\r\nx-api-key: Ni9tok2QGz9xOSKsfBp6q87dnjS8zVmo5t45SGsp\r\naccept: */*\r\n\r\n",
+		"timestamp": 1605566304170
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "HTTP/2 200 \r\n",
+		"timestamp": 1605566304332
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "content-type: text/html; charset=utf-8\r\n",
+		"timestamp": 1605566304332
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "ig-set-password-encryption-web-key-id: 248\r\n",
+		"timestamp": 1605566304332
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "ig-set-password-encryption-web-pub-key: 59bee212016306f19d93a9aa354a093de7746b6e9fba7f4a99fdba61631c1d3d\r\n",
+		"timestamp": 1605566304332
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "ig-set-password-encryption-web-key-version: 10\r\n",
+		"timestamp": 1605566304332
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "vary: Cookie, Accept-Language, Accept-Encoding\r\n",
+		"timestamp": 1605566304332
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "last-modified: Mon, 16 Nov 2020 22:38:24 GMT\r\n",
+		"timestamp": 1605566304332
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "expires: Sat, 01 Jan 2000 00:00:00 GMT\r\n",
+		"timestamp": 1605566304332
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "cache-control: private, no-cache, no-store, must-revalidate\r\n",
+		"timestamp": 1605566304332
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "content-language: en\r\n",
+		"timestamp": 1605566304332
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "date: Mon, 16 Nov 2020 22:38:24 GMT\r\n",
+		"timestamp": 1605566304332
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "strict-transport-security: max-age=31536000\r\n",
+		"timestamp": 1605566304332
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "pragma: no-cache\r\n",
+		"timestamp": 1605566304332
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "x-frame-options: SAMEORIGIN\r\n",
+		"timestamp": 1605566304332
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "content-security-policy: report-uri https://www.instagram.com/security/csp_report/; default-src 'self' https://www.instagram.com; img-src data: blob: https://*.fbcdn.net https://*.instagram.com https://*.cdninstagram.com https://*.facebook.com https://*.giphy.com; font-src data: https://*.fbcdn.net https://*.instagram.com https://*.cdninstagram.com; media-src 'self' blob: https://www.instagram.com https://*.cdninstagram.com https://*.fbcdn.net; manifest-src 'self' https://www.instagram.com; script-src 'self' https://instagram.com https://www.instagram.com https://*.www.instagram.com https://*.cdninstagram.com wss://www.instagram.com https://*.facebook.com https://*.fbcdn.net https://*.facebook.net 'unsafe-inline' 'unsafe-eval' blob:; style-src 'self' https://*.www.instagram.com https://www.instagram.com 'unsafe-inline'; connect-src 'self' https://instagram.com https://www.instagram.com https://*.www.instagram.com https://graph.instagram.com https://*.graph.instagram.com https://*.cdninstagram.com https://api.instagram.com https://i.instagram.com wss://www.instagram.com wss://edge-chat.instagram.com https://*.facebook.com https://*.fbcdn.net https://*.facebook.net chrome-extension://boadgeojelhgndaghljhdicfkmllpafd blob:; worker-src 'self' blob: https://www.instagram.com; frame-src 'self' https://instagram.com https://www.instagram.com https://staticxx.facebook.com https://www.facebook.com https://web.facebook.com https://connect.facebook.net https://m.facebook.com; object-src 'none'; upgrade-insecure-requests\r\n",
+		"timestamp": 1605566304332
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "x-content-type-options: nosniff\r\n",
+		"timestamp": 1605566304332
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "x-xss-protection: 0\r\n",
+		"timestamp": 1605566304332
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "x-aed: 30\r\n",
+		"timestamp": 1605566304332
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "access-control-expose-headers: X-IG-Set-WWW-Claim\r\n",
+		"timestamp": 1605566304332
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "set-cookie: sessionid=\"\"; Domain=instagram.com; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/\r\n",
+		"timestamp": 1605566304332
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "set-cookie: sessionid=\"\"; Domain=.instagram.com; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/\r\n",
+		"timestamp": 1605566304332
+	},
+	{
+		"name": "TEXT",
+		"value": "skipped cookie with bad tailmatch domain: i.instagram.com\n",
+		"timestamp": 1605566304332
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "set-cookie: sessionid=\"\"; Domain=i.instagram.com; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/\r\n",
+		"timestamp": 1605566304332
+	},
+	{
+		"name": "TEXT",
+		"value": "skipped cookie with bad tailmatch domain: i.instagram.com\n",
+		"timestamp": 1605566304332
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "set-cookie: sessionid=\"\"; Domain=.i.instagram.com; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/\r\n",
+		"timestamp": 1605566304332
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "set-cookie: sessionid=\"\"; Domain=www.instagram.com; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/\r\n",
+		"timestamp": 1605566304332
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "set-cookie: sessionid=\"\"; Domain=.www.instagram.com; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/\r\n",
+		"timestamp": 1605566304334
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "set-cookie: sessionid=\"\"; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/\r\n",
+		"timestamp": 1605566304334
+	},
+	{
+		"name": "TEXT",
+		"value": "Replaced cookie csrftoken=\"VtNv6c2TrhMiVoCWfSavZKN25VZPGitq\" for domain instagram.com, path /, expire 1637015904\n",
+		"timestamp": 1605566304334
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "set-cookie: csrftoken=VtNv6c2TrhMiVoCWfSavZKN25VZPGitq; Domain=.instagram.com; expires=Mon, 15-Nov-2021 22:38:24 GMT; Max-Age=31449600; Path=/; Secure\r\n",
+		"timestamp": 1605566304334
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "content-length: 61959\r\n",
+		"timestamp": 1605566304334
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "x-fb-trip-id: 1679558926\r\n",
+		"timestamp": 1605566304334
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "alt-svc: h3-29=\":443\"; ma=3600,h3-27=\":443\"; ma=3600\r\n",
+		"timestamp": 1605566304334
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "\r\n",
+		"timestamp": 1605566304334
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1492 B chunk",
+		"timestamp": 1605566304335
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1500 B chunk",
+		"timestamp": 1605566304336
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1500 B chunk",
+		"timestamp": 1605566304336
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 444 B chunk",
+		"timestamp": 1605566304336
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1491 B chunk",
+		"timestamp": 1605566304336
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 2.5 KB chunk",
+		"timestamp": 1605566304336
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 4 KB chunk",
+		"timestamp": 1605566304336
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 4 KB chunk",
+		"timestamp": 1605566304336
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1491 B chunk",
+		"timestamp": 1605566304336
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 2.5 KB chunk",
+		"timestamp": 1605566304337
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1500 B chunk",
+		"timestamp": 1605566304337
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 2.5 KB chunk",
+		"timestamp": 1605566304356
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 4 KB chunk",
+		"timestamp": 1605566304358
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1491 B chunk",
+		"timestamp": 1605566304358
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 2.5 KB chunk",
+		"timestamp": 1605566304361
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 4 KB chunk",
+		"timestamp": 1605566304587
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1500 B chunk",
+		"timestamp": 1605566304587
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 2.5 KB chunk",
+		"timestamp": 1605566304587
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 4 KB chunk",
+		"timestamp": 1605566304587
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1491 B chunk",
+		"timestamp": 1605566304587
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 2.5 KB chunk",
+		"timestamp": 1605566304587
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 4 KB chunk",
+		"timestamp": 1605566304587
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1500 B chunk",
+		"timestamp": 1605566304588
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 2.5 KB chunk",
+		"timestamp": 1605566304588
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 2.7 KB chunk",
+		"timestamp": 1605566304588
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 1400 B chunk",
+		"timestamp": 1605566305007
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection #1 to host www.instagram.com left intact\n",
+		"timestamp": 1605566305007
+	},
+	{
+		"name": "TEXT",
+		"value": "Rejected cookie: Cookie not in this host's domain. Cookie:i.instagram.com Request:www.instagram.com",
+		"timestamp": 1605566305016
+	},
+	{
+		"name": "TEXT",
+		"value": "Rejected cookie: Cookie not in this host's domain. Cookie:i.instagram.com Request:www.instagram.com",
+		"timestamp": 1605566305016
+	},
+	{
+		"name": "TEXT",
+		"value": "Rejected cookie: Cookie not in this host's domain. Cookie:i.instagram.com Request:www.instagram.com",
+		"timestamp": 1605566305018
+	},
+	{
+		"name": "TEXT",
+		"value": "Rejected cookie: Cookie not in this host's domain. Cookie:i.instagram.com Request:www.instagram.com",
+		"timestamp": 1605566305022
+	},
+	{
+		"name": "TEXT",
+		"value": "Saved 19 cookies",
+		"timestamp": 1605566305032
+	}
+]

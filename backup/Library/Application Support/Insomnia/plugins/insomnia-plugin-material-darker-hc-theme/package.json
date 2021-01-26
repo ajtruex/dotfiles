@@ -1,0 +1,16 @@
+{
+    "name": "insomnia-plugin-material-darker-hc-theme",
+    "version": "1.0.5",
+    "description": "A port of the Material Darker (High Contrast) theme for the Insomnia REST client.",
+    "main": "index.js",
+    "author": "Scott Anderson",
+    "license": "MIT",
+    "insomnia": {
+        "name": "material-darker-hc-theme",
+        "description": "A port of the Material Darker (High Contrast) theme for the Insomnia REST client."
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/swaj/insomnia-plugin-material-darker-hc-theme.git"
+    }
+}

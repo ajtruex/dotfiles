@@ -1,0 +1,23 @@
+{
+  "disabled_plugins": {
+    "__class__": "set",
+    "__value__": []
+  },
+  "enabled_plugins": {
+    "__class__": "set",
+    "__value__": [
+      "Read ZIP metadata",
+      "Catalog_EPUB_MOBI"
+    ]
+  },
+  "filetype_mapping": {},
+  "plugin_customization": {},
+  "plugins": {
+    "KFX Input": "/Users/andrewtruex/Library/Preferences/calibre/plugins/KFX Input.zip",
+    "KFX Output": "/Users/andrewtruex/Library/Preferences/calibre/plugins/KFX Output.zip",
+    "Kindle Collections": "/Users/andrewtruex/Library/Preferences/calibre/plugins/Kindle Collections.zip",
+    "KindleUnpack - The Plugin": "/Users/andrewtruex/Library/Preferences/calibre/plugins/KindleUnpack - The Plugin.zip",
+    "Modify ePub": "/Users/andrewtruex/Library/Preferences/calibre/plugins/Modify ePub.zip",
+    "View Manager": "/Users/andrewtruex/Library/Preferences/calibre/plugins/View Manager.zip"
+  }
+}

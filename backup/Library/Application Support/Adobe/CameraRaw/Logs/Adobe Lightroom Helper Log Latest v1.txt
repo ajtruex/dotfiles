@@ -1,0 +1,17 @@
+cr_sdk_initialize: Adobe Lightroom 4.1 (Macintosh), version 13.1x658, 64-bit, Release
+gDNGMaxSIMD: 3
+Memory allocator: baseline (cr_memory_allocator)
+TBB threading: no
+PatchMatch initialized (version 5.0.0.0). Using 4 threads.
+OS: 11.1
+CPU: Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz
+MPProcessorCount (hyperthreading = false): 2
+MPProcessorCount (hyperthreading = true): 4
+MPThreadCount: 3
+std::thread::hardware_concurrency: 4
+AVX support: yes
+AVX2 support: yes
+AVX512 support: no
+System physical RAM: 8 GB
+Intel Compiler: no
+cr_sdk_terminate

@@ -1,0 +1,14 @@
+[2020-01-24T01:22:27.363Z] Detecting Git and Git LFS: started
+[2020-01-24T01:22:31.088Z] Detected Git: 2.21.1
+[2020-01-24T01:22:31.122Z] Did not detect Git LFS
+[2020-08-06T01:42:18.193Z] Detecting Git and Git LFS: started
+[2020-08-06T01:42:20.681Z] Detected Git: 2.24.3
+[2020-08-06T01:42:20.697Z] Did not detect Git LFS
+[2020-08-06T01:42:50.800Z] Send usage data to Axosoft: started.
+[2020-08-06T01:42:50.961Z] Send usage data to Axosoft: API returned 400
+[2020-08-06T01:42:50.968Z] Send usage data to Axosoft: finished with errors. gk-log://duration?t=168
+[2020-08-06T01:43:17.343Z] Open repository /Users/andrewtruex/Intro-to-Vue-3/: started.
+[2020-08-06T01:43:18.908Z] Open repository: finished. gk-log://duration?t=1565
+[2020-08-06T01:43:48.208Z] Detecting Git and Git LFS: started
+[2020-08-06T01:43:50.392Z] Detected Git: 2.24.3
+[2020-08-06T01:43:50.439Z] Did not detect Git LFS

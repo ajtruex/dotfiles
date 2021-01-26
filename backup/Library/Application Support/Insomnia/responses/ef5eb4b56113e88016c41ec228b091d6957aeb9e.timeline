@@ -1,0 +1,217 @@
+[
+	{
+		"name": "TEXT",
+		"value": "Preparing request to https://api.producthunt.com/v2/api/graphql",
+		"timestamp": 1582519988234
+	},
+	{
+		"name": "TEXT",
+		"value": "Using libcurl/7.67.0 SecureTransport zlib/1.2.11",
+		"timestamp": 1582519988234
+	},
+	{
+		"name": "TEXT",
+		"value": "Current time is 2020-02-24T04:53:08.234Z",
+		"timestamp": 1582519988234
+	},
+	{
+		"name": "TEXT",
+		"value": "Disable timeout",
+		"timestamp": 1582519988234
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable automatic URL encoding",
+		"timestamp": 1582519988234
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable SSL validation",
+		"timestamp": 1582519988234
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable cookie sending with jar of 3 cookies",
+		"timestamp": 1582519988234
+	},
+	{
+		"name": "TEXT",
+		"value": "Too old connection (884 seconds), disconnect it\n",
+		"timestamp": 1582519988242
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection 3 seems to be dead!\n",
+		"timestamp": 1582519988242
+	},
+	{
+		"name": "TEXT",
+		"value": "Closing connection 3\n",
+		"timestamp": 1582519988242
+	},
+	{
+		"name": "TEXT",
+		"value": "Too old connection (884 seconds), disconnect it\n",
+		"timestamp": 1582519988243
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection 2 seems to be dead!\n",
+		"timestamp": 1582519988243
+	},
+	{
+		"name": "TEXT",
+		"value": "Closing connection 2\n",
+		"timestamp": 1582519988243
+	},
+	{
+		"name": "TEXT",
+		"value": "  Trying 104.18.231.83:443...\n",
+		"timestamp": 1582519988291
+	},
+	{
+		"name": "TEXT",
+		"value": "TCP_NODELAY set\n",
+		"timestamp": 1582519988291
+	},
+	{
+		"name": "TEXT",
+		"value": "Connected to api.producthunt.com (104.18.231.83) port 443 (#4)\n",
+		"timestamp": 1582519988315
+	},
+	{
+		"name": "TEXT",
+		"value": "ALPN, offering http/1.1\n",
+		"timestamp": 1582519988315
+	},
+	{
+		"name": "TEXT",
+		"value": "TLS 1.2 connection using TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256\n",
+		"timestamp": 1582519988383
+	},
+	{
+		"name": "TEXT",
+		"value": "Server certificate: ssl400516.cloudflaressl.com\n",
+		"timestamp": 1582519988383
+	},
+	{
+		"name": "TEXT",
+		"value": "Server certificate: COMODO ECC Domain Validation Secure Server CA 2\n",
+		"timestamp": 1582519988383
+	},
+	{
+		"name": "TEXT",
+		"value": "Server certificate: COMODO ECC Certification Authority\n",
+		"timestamp": 1582519988383
+	},
+	{
+		"name": "HEADER_OUT",
+		"value": "GET /v2/api/graphql HTTP/1.1\r\nHost: api.producthunt.com\r\nUser-Agent: insomnia/7.1.1\r\nAccept: */*\r\n\r\n",
+		"timestamp": 1582519988383
+	},
+	{
+		"name": "TEXT",
+		"value": "Mark bundle as not supporting multiuse\n",
+		"timestamp": 1582519988797
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "HTTP/1.1 404 Not Found\r\n",
+		"timestamp": 1582519988797
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Date: Mon, 24 Feb 2020 04:53:08 GMT\r\n",
+		"timestamp": 1582519988797
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Content-Type: text/html; charset=UTF-8\r\n",
+		"timestamp": 1582519988797
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Transfer-Encoding: chunked\r\n",
+		"timestamp": 1582519988797
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Connection: keep-alive\r\n",
+		"timestamp": 1582519988797
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Set-Cookie: __cfduid=d3969379f8fb8848a77604e206596ff4d1582519988; expires=Wed, 25-Mar-20 04:53:08 GMT; path=/; domain=.producthunt.com; HttpOnly; SameSite=Lax\r\n",
+		"timestamp": 1582519988797
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Request-Id: f9d217c3-c9aa-4ec8-8a72-ad7194ca8cf5\r\n",
+		"timestamp": 1582519988797
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Runtime: 0.002196\r\n",
+		"timestamp": 1582519988797
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Vary: Origin\r\n",
+		"timestamp": 1582519988797
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "CF-Cache-Status: DYNAMIC\r\n",
+		"timestamp": 1582519988797
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Expect-CT: max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"\r\n",
+		"timestamp": 1582519988797
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Strict-Transport-Security: max-age=2592000; includeSubDomains; preload\r\n",
+		"timestamp": 1582519988797
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "X-Content-Type-Options: nosniff\r\n",
+		"timestamp": 1582519988797
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Server: cloudflare\r\n",
+		"timestamp": 1582519988797
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "CF-RAY: 569ed5878a75c560-ORD\r\n",
+		"timestamp": 1582519988797
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "\r\n",
+		"timestamp": 1582519988797
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 468 B chunk",
+		"timestamp": 1582519988797
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 5 B chunk",
+		"timestamp": 1582519988797
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection #4 to host api.producthunt.com left intact\n",
+		"timestamp": 1582519988798
+	},
+	{
+		"name": "TEXT",
+		"value": "Saved 1 cookie",
+		"timestamp": 1582519988804
+	}
+]

@@ -1,0 +1,86 @@
+{
+  "_from": "speed-test@2.1.0",
+  "_id": "speed-test@2.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-sSmX6yMOwzVmVei9PB08Nd5ZLZ7isXSRG+s7fMZxyjyegvSy77cCrZ39Oo2Kk/KkWW4SSCXiQ8LtFxfP/Ujijw==",
+  "_location": "/speed-test",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "speed-test@2.1.0",
+    "name": "speed-test",
+    "escapedName": "speed-test",
+    "rawSpec": "2.1.0",
+    "saveSpec": null,
+    "fetchSpec": "2.1.0"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/speed-test/-/speed-test-2.1.0.tgz",
+  "_shasum": "9cf2c95e6c4f9a5b426098afb7b5f76e91b31d49",
+  "_spec": "speed-test@2.1.0",
+  "_where": "/Users/andrewtruex/ux",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "bin": {
+    "speed-test": "cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/sindresorhus/speed-test/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "log-symbols": "^2.2.0",
+    "log-update": "^2.3.0",
+    "meow": "^5.0.0",
+    "ora": "^3.1.0",
+    "round-to": "^3.0.0",
+    "speedtest-net": "^1.2.4",
+    "update-notifier": "^2.3.0"
+  },
+  "deprecated": false,
+  "description": "Test your internet connection speed and ping using speedtest.net from the CLI",
+  "devDependencies": {
+    "ava": "^1.2.1",
+    "execa": "^1.0.0",
+    "xo": "^0.24.0"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "homepage": "https://github.com/sindresorhus/speed-test#readme",
+  "keywords": [
+    "cli-app",
+    "cli",
+    "speed",
+    "test",
+    "tester",
+    "speed-test",
+    "speedtest",
+    "connection",
+    "internet",
+    "bandwidth",
+    "ping",
+    "measure",
+    "check"
+  ],
+  "license": "MIT",
+  "name": "speed-test",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/speed-test.git"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "version": "2.1.0"
+}

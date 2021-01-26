@@ -1,0 +1,102 @@
+{
+  "_from": "how-2@1.8.2",
+  "_id": "how-2@1.8.2",
+  "_inBundle": false,
+  "_integrity": "sha512-Btwmtt/R+3CbsgMXY0WcDJEQICcNFoG/6XX7Kwy6ZhjwiEdGxWEUO2QcAIVntHkP3DTtTX1AfQuo5EoRg60zbg==",
+  "_location": "/how-2",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "how-2@1.8.2",
+    "name": "how-2",
+    "escapedName": "how-2",
+    "rawSpec": "1.8.2",
+    "saveSpec": null,
+    "fetchSpec": "1.8.2"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/how-2/-/how-2-1.8.2.tgz",
+  "_shasum": "2b3d7349af572a461193da059e75df95a43df923",
+  "_spec": "how-2@1.8.2",
+  "_where": "/Users/andrewtruex/ux",
+  "author": {
+    "name": "Claudio Santini",
+    "email": "hireclaudio@gmail.com",
+    "url": "https://www.linkedin.com/in/santinic"
+  },
+  "bin": {
+    "how2": "bin/how2"
+  },
+  "bugs": {
+    "url": "https://github.com/santinic/how2/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Paolo Cifariello",
+      "email": "paolocifa@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "axios": "^0.19.0",
+    "blessed": "^0.1.81",
+    "colors": "^1.1.2",
+    "ent": "^2.2.0",
+    "google-it": "^1.2.1",
+    "keypress": "^0.2.1",
+    "lodash": "^4.17.15",
+    "marked": "^0.7.0",
+    "marked-terminal": "^1.6.1",
+    "nconf": "^0.8.4",
+    "npm-latest": "^1.0.1",
+    "openurl": "^1.1.1",
+    "request": "^2.88.0",
+    "semver": "5.1.0",
+    "simple-spinner": "0.0.5",
+    "winston": "^3.1.0",
+    "yargs": "^4.1.0"
+  },
+  "deprecated": false,
+  "description": "Uses Google and Stackoverflow to find how to do things on a Unix commmand line",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^5.2.0"
+  },
+  "homepage": "https://github.com/santinic/how2/",
+  "keywords": [
+    "how2",
+    "howto",
+    "man",
+    "google",
+    "stackoverflow",
+    "stack overflow",
+    "stackexchange",
+    "stack exchange"
+  ],
+  "license": "MIT",
+  "main": "./index.js",
+  "name": "how-2",
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/santinic/how2.git"
+  },
+  "scripts": {
+    "start": "./bin/how2 concatenate two files",
+    "test": "mocha test"
+  },
+  "tags": [
+    "how2",
+    "howto",
+    "man",
+    "google",
+    "stackoverflow",
+    "stack overflow",
+    "stackexchange",
+    "stack exchange"
+  ],
+  "version": "1.8.2"
+}

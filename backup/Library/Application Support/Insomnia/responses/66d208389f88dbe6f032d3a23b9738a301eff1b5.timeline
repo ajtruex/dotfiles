@@ -1,0 +1,167 @@
+[
+	{
+		"name": "TEXT",
+		"value": "Preparing request to https://untappd.com/oauth/authorize/?client_id=0A0974D4A29D8FA088433A6A3797E99D11F893A1&client_secret=878E00D23C8EE6EFF2588B6ECF1787CFC83AF28B&response_type=code&redirect_url=andrewtruex.software&code=7eb43bb4-b724-40dc-8d43-e4ad7d573599",
+		"timestamp": 1584916066934
+	},
+	{
+		"name": "TEXT",
+		"value": "Using libcurl/7.67.0 SecureTransport zlib/1.2.11",
+		"timestamp": 1584916066934
+	},
+	{
+		"name": "TEXT",
+		"value": "Current time is 2020-03-22T22:27:46.934Z",
+		"timestamp": 1584916066934
+	},
+	{
+		"name": "TEXT",
+		"value": "Disable timeout",
+		"timestamp": 1584916066934
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable automatic URL encoding",
+		"timestamp": 1584916066934
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable SSL validation",
+		"timestamp": 1584916066934
+	},
+	{
+		"name": "TEXT",
+		"value": "Enable cookie sending with jar of 11 cookies",
+		"timestamp": 1584916066935
+	},
+	{
+		"name": "TEXT",
+		"value": "Too old connection (376 seconds), disconnect it\n",
+		"timestamp": 1584916066975
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection 8 seems to be dead!\n",
+		"timestamp": 1584916066975
+	},
+	{
+		"name": "TEXT",
+		"value": "Closing connection 8\n",
+		"timestamp": 1584916066975
+	},
+	{
+		"name": "TEXT",
+		"value": "  Trying 104.26.13.22:443...\n",
+		"timestamp": 1584916067009
+	},
+	{
+		"name": "TEXT",
+		"value": "TCP_NODELAY set\n",
+		"timestamp": 1584916067009
+	},
+	{
+		"name": "TEXT",
+		"value": "Connected to untappd.com (104.26.13.22) port 443 (#9)\n",
+		"timestamp": 1584916067034
+	},
+	{
+		"name": "TEXT",
+		"value": "ALPN, offering http/1.1\n",
+		"timestamp": 1584916067034
+	},
+	{
+		"name": "TEXT",
+		"value": "TLS 1.2 connection using TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256\n",
+		"timestamp": 1584916067093
+	},
+	{
+		"name": "TEXT",
+		"value": "Server certificate: untappd.com\n",
+		"timestamp": 1584916067093
+	},
+	{
+		"name": "TEXT",
+		"value": "Server certificate: CloudFlare Inc ECC CA-2\n",
+		"timestamp": 1584916067093
+	},
+	{
+		"name": "TEXT",
+		"value": "Server certificate: Baltimore CyberTrust Root\n",
+		"timestamp": 1584916067093
+	},
+	{
+		"name": "HEADER_OUT",
+		"value": "GET /oauth/authorize/?client_id=0A0974D4A29D8FA088433A6A3797E99D11F893A1&client_secret=878E00D23C8EE6EFF2588B6ECF1787CFC83AF28B&response_type=code&redirect_url=andrewtruex.software&code=7eb43bb4-b724-40dc-8d43-e4ad7d573599 HTTP/1.1\r\nHost: untappd.com\r\nUser-Agent: insomnia/7.1.1\r\nCookie: __cfduid=d66f6de801ad3ec9e427f13c715a520021584907196; ut_anon=7eb43bb4-b724-40dc-8d43-e4ad7d573599\r\nAccept: */*\r\n\r\n",
+		"timestamp": 1584916067093
+	},
+	{
+		"name": "TEXT",
+		"value": "Mark bundle as not supporting multiuse\n",
+		"timestamp": 1584916067461
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "HTTP/1.1 200 OK\r\n",
+		"timestamp": 1584916067461
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Date: Sun, 22 Mar 2020 22:27:47 GMT\r\n",
+		"timestamp": 1584916067462
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Content-Type: application/json\r\n",
+		"timestamp": 1584916067462
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Transfer-Encoding: chunked\r\n",
+		"timestamp": 1584916067462
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Connection: keep-alive\r\n",
+		"timestamp": 1584916067462
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "CF-Cache-Status: DYNAMIC\r\n",
+		"timestamp": 1584916067462
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Expect-CT: max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"\r\n",
+		"timestamp": 1584916067462
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "Server: cloudflare\r\n",
+		"timestamp": 1584916067462
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "CF-RAY: 5783578b693c7fa0-ORD\r\n",
+		"timestamp": 1584916067462
+	},
+	{
+		"name": "HEADER_IN",
+		"value": "\r\n",
+		"timestamp": 1584916067462
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 121 B chunk",
+		"timestamp": 1584916067462
+	},
+	{
+		"name": "TEXT",
+		"value": "Received 5 B chunk",
+		"timestamp": 1584916067463
+	},
+	{
+		"name": "TEXT",
+		"value": "Connection #9 to host untappd.com left intact\n",
+		"timestamp": 1584916067463
+	}
+]
