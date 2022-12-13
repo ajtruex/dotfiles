@@ -10,8 +10,8 @@ export ZSH="/Users/andrewtruex/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-# ZSH_THEME="ajtruex"
 ZSH_THEME="ajtruex"
+# ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -74,18 +74,18 @@ ZSH_THEME="ajtruex"
 # plugins=(git)
 # plugins=(git git-prompt zsh-completions sublime brew node npm osx thefuck z history autojump zsh-syntax-highlighting zsh-history-substring-search rust cargo colored-man-pages zsh-autosuggestions zsh-better-npm-completion pip python virtualenv vue golang github iterm2 nvm)
 
-plugins=(git git-prompt zsh-completions sublime brew node npm osx thefuck z history autojump zsh-syntax-highlighting zsh-history-substring-search rust cargo colored-man-pages zsh-autosuggestions zsh-better-npm-completion pip python virtualenv golang github iterm2 nvm gitignore pyenv)
+plugins=(git git-prompt zsh-completions sublime brew node npm macos thefuck z history autojump zsh-syntax-highlighting zsh-history-substring-search rust colored-man-pages zsh-autosuggestions zsh-better-npm-completion pip python virtualenv golang github iterm2 nvm gitignore man)
 
 source $ZSH/oh-my-zsh.sh
 
 source ~/.git-prompt.sh
-if type brew &>/dev/null; then
-  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+# if type brew &>/dev/null; then
+#   FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
 
-  autoload -Uz compinit
-  compinit
-fi
-
+#   autoload -Uz compinit
+#   compinit
+# fi
+FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
 # autoload -U compinit && compinit
 
 # User configuration
@@ -158,8 +158,12 @@ alias nodemodules="find . -name "node_modules" -exec rm -rf '{}' +"
 alias codei=/usr/local/bin/code-insiders
 alias ytaud="youtube-dl -x --audio-format mp3 --output /Users/andrewtruex/Downloads/'%(title)s.%(ext)s'"
 alias tt-dl="tiktok-scraper"
-# alias python=/usr/local/bin/python3
+alias bz2="bzip2"
+alias ytbest="yt-dlp -f 'bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]'"
+alias python=/usr/local/bin/python3
 # alias pip=/usr/local/bin/pip3
+alias ils='timg --grid=2x1 --upscale=i --center --title --frames=1 '
+alias lsd="lsd -l"
 
 export ZLS_COLORS='BxBxhxDxfxhxhxhxhxcxcx'
 
@@ -191,10 +195,11 @@ secoff() {
 
 source ~/.iterm2_shell_integration.zsh
 
-# export PATH="/usr/local/opt/curl/bin:$PATH"
-# if command -v pyenv 1>/dev/null 2>&1; then
-  # eval "$(pyenv init -)"
-# fi
+export PATH="/usr/local/opt/curl/bin:$PATH"
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
+
 export EDITOR="code"
 
 export PATH="/Users/andrewtruex/.deno/bin:$PATH"
@@ -209,7 +214,7 @@ export IPFS_PATH=/Users/andrewtruex/.ipfs
 [[ -f ~/.config/tabtab/__tabtab.zsh ]] && . ~/.config/tabtab/__tabtab.zsh || true
 
 # twilio autocomplete setup
-TWILIO_AC_ZSH_SETUP_PATH=/Users/andrewtruex/.twilio-cli/autocomplete/zsh_setup && test -f $TWILIO_AC_ZSH_SETUP_PATH && source $TWILIO_AC_ZSH_SETUP_PATH;
+TWILIO_AC_ZSH_SETUP_PATH=/Users/andrewtruex/.twilio-cli/autocomplete/zsh_setup && test -f $TWILIO_AC_ZSH_SETUP_PATH && source $TWILIO_AC_ZSH_SETUP_PATH
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
@@ -218,3 +223,14 @@ export NVM_DIR="$HOME/.nvm"
 # [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 export PATH=/Applications/MEGAcmd.app/Contents/MacOS:$PATH
+
+
+
+unsetopt PROMPT_SP
+
+eval "$(starship init zsh)"
+
+# Created by `pipx` on 2022-06-14 18:56:54
+export PATH="$PATH:/Users/andrewtruex/.local/bin"
+
+SPACESHIP_PROMPT_ASYNC=FALSE
