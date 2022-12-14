@@ -1,0 +1,2 @@
+tabset --color
+compinit

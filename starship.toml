@@ -1,0 +1,35 @@
+# Inserts a blank line between shell prompts
+# add_newline = true
+# format = "$all$directory$character"
+
+
+[username]
+show_always = true
+format = "[$user]($style fg:#00c300)@"
+disabled = true
+
+[gcloud]
+disabled = true
+
+[aws]
+disabled = true
+
+# [c]
+# disabled = true
+
+[hostname]
+ssh_only = false
+format = "[$hostname]($style fg:#00c300): "
+style = "fg:#00c300"
+disabled = true
+
+[directory]
+truncation_length = 10
+truncate_to_repo = false
+format = "[$path]($style) "
+
+[git_status]
+# disabled = true
+
+[cmd_duration]
+disabled = true
