@@ -76,6 +76,8 @@ ZSH_THEME="ajtruex"
 
 plugins=(git git-prompt zsh-completions sublime brew node npm macos thefuck z history autojump zsh-syntax-highlighting zsh-history-substring-search rust colored-man-pages zsh-autosuggestions zsh-better-npm-completion pip python virtualenv golang github iterm2 nvm gitignore man)
 
+zstyle ':omz:update' mode reminder
+
 source $ZSH/oh-my-zsh.sh
 
 source ~/.git-prompt.sh
@@ -163,9 +165,12 @@ alias ytbest="yt-dlp -f 'bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]'"
 alias python=/usr/local/bin/python3
 # alias pip=/usr/local/bin/pip3
 alias ils='timg --grid=2x1 --upscale=i --center --title --frames=1 '
-alias lsd="lsd -l"
+# alias lsd="lsd -l"
 
 export ZLS_COLORS='BxBxhxDxfxhxhxhxhxcxcx'
+
+export HOMEBREW_NO_AUTO_UPDATE=1
+export HOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK=1
 
 
 function mk() {
@@ -193,7 +198,8 @@ secoff() {
 }
 
 
-source ~/.iterm2_shell_integration.zsh
+
+# source ~/.iterm2_shell_integration.zsh
 
 export PATH="/usr/local/opt/curl/bin:$PATH"
 if command -v pyenv 1>/dev/null 2>&1; then
@@ -234,3 +240,26 @@ eval "$(starship init zsh)"
 export PATH="$PATH:/Users/andrewtruex/.local/bin"
 
 SPACESHIP_PROMPT_ASYNC=FALSE
+export PATH=$PATH:/Users/andrewtruex/.spicetify
+
+source /Users/andrewtruex/.config/broot/launcher/bash/br
+
+# bun completions
+[ -s "/Users/andrewtruex/.bun/_bun" ] && source "/Users/andrewtruex/.bun/_bun"
+
+if [[ $TERM_PROGRAM != "WarpTerminal" ]]; then
+##### WHAT YOU WANT TO DISABLE FOR WARP - BELOW
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+
+fi
+
+if [[ $TERM_PROGRAM == "WarpTerminal" ]]; then
+# function set_win_title(){
+	# echo -ne "\033]0; ~/$(basename "$PWD") \007"
+ # }
+
+# precmd_functions+=(set_win_title)
+fi
+
